@@ -1,38 +1,69 @@
 {
-    "name": "w3-dojo-vscode-theme",
+    "name": "developers-dojo",
     "displayName": "Developer's Dojo",
     "description": "",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "JAYD3V",
     "license": "MIT",
     "icon": "res/icon.png",
     "galleryBanner": {
-        "color": "#123274",
+        "color": "#15336C",
         "theme": "dark"
     },
+
     "repository": {
         "type": "git",
-        "url": "https://github.com/W3Dojo/w3-dojo-vscode-theme.git"
+        "url": "https://github.com/W3Dojo/developers-dojo.git"
     },
+    "bugs": {
+        "email": "W3Dojo@Gmail.com",
+        "url": "https://github.com/W3Dojo/developers-dojo/issues"
+    },
+
     "engines": {
         "vscode": "^1.62.0"
     },
+
     "categories": ["Themes"],
 
     "keywords": [
-        "theme",
-        "github",
-        "dark",
-        "JavaScript",
-        "TypeScript",
-        "Node.js",
+        "Theme",
+        "Dark",
+        "Dark Theme",
+        "Dojo",
+        "Developer",
+        "Dev",
         "Beautiful",
-        "Awesome",
-        "Black",
+        "Clean",
+        "Professional",
+        "Nice",
         "Blue",
         "Green",
+        "Orange",
         "Purple",
-        "Red Orange"
+        "lavender",
+        "Violet",
+        "Cyan",
+        "Azure",
+        "Capri",
+        "Pacific",
+        "Spring Green",
+        "Black",
+        "Dark Blue",
+        "Good",
+        "Perfect",
+        "C++",
+        "MakeFile",
+        "CMake",
+        "JavaScript",
+        "JS",
+        "Node.js",
+        "TypeScript",
+        "JSON",
+        "YAML",
+        "MD",
+        "HTML",
+        "CSS"
     ],
 
     "contributes": {
