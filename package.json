@@ -1,0 +1,47 @@
+{
+    "name": "w3-dojo-vscode-theme",
+    "displayName": "Developer's Dojo",
+    "description": "",
+    "version": "0.0.2",
+    "publisher": "JAYD3V",
+    "license": "MIT",
+    "icon": "./res/icon-00.png",
+    "galleryBanner": {
+        "color": "#123274",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/W3Dojo/w3-dojo-vscode-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": ["Themes"],
+
+    "keywords": [
+        "theme",
+        "github",
+        "dark",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Beautiful",
+        "Awesome",
+        "Black",
+        "Blue",
+        "Green",
+        "Purple",
+        "Red Orange"
+    ],
+
+    "contributes": {
+        "themes": [
+            {
+                "label": "Developer's Dojo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/themes/developers-dojo-vscode-theme.json"
+            }
+        ]
+    }
+}
