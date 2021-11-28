@@ -175,12 +175,12 @@
         "editor.wordHighlightBorder": "#64E540",
         "editor.snippetFinalTabstopHighlightBorder": "#64E540",
         "editor.snippetFinalTabstopHighlightBackground": "#64E540",
-        "editor.snippetTabstopHighlightBackground": "#64E540",
+        "editor.snippetTabstopHighlightBackground": "#00000088",
         "editor.snippetTabstopHighlightBorder": "#64E540",
         /*
     <|==========|| 2ND'ary BACKGROUNDS ||===========|>               */
         "sideBar.background": "#09193C",
-        "terminal.background": "#09193C",
+        "terminal.background": "#000",
         "breadcrumb.background": "#09193C",
         "tab.activeBorder": "#09193C",
         "tab.unfocusedActiveBorder": "#09193C",
@@ -395,24 +395,24 @@
 
     <|====================| TERMINAL |=======================|>               */
         "terminal.ansiBlack": "#000000",
-        "terminal.ansiBlue": "#80B0FF",
-        "terminal.ansiBrightBlack": "#555555",
-        "terminal.ansiBrightBlue": "#40C8FF",
-        "terminal.ansiBrightCyan": "#00EEE0",
-        "terminal.ansiBrightGreen": "#A0FF80",
-        "terminal.ansiBrightMagenta": "#FF60EC",
-        "terminal.ansiBrightRed": "#FF0040",
-        "terminal.ansiBrightWhite": "#E8E8E8",
-        "terminal.ansiBrightYellow": "#FFC412",
+        "terminal.ansiBlue": "#3060FF",
+        "terminal.ansiBrightBlack": "#1C1E2E",
+        "terminal.ansiBrightBlue": "#50D0FF",
+        "terminal.ansiBrightCyan": "#00FFF0",
+        "terminal.ansiBrightGreen": "#00D800",
+        "terminal.ansiBrightMagenta": "#FF30DD",
+        "terminal.ansiBrightRed": "#FF1020",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#FFFF40",
         "terminal.ansiCyan": "#24BCD8",
-        "terminal.ansiGreen": "#30A550",
-        "terminal.ansiMagenta": "#DD70EE",
-        "terminal.ansiRed": "#DD5542",
-        "terminal.ansiWhite": "#B0B0B0",
-        "terminal.ansiYellow": "#DDAA40",
+        "terminal.ansiGreen": "#40CC40",
+        "terminal.ansiMagenta": "#FF99EE",
+        "terminal.ansiRed": "#EE4038",
+        "terminal.ansiWhite": "#D8D8D8",
+        "terminal.ansiYellow": "#D49420",
 
         "terminal.border": "#0050FF",
-        "terminal.foreground": "#2EE50C",
+        "terminal.foreground": "#D8D8D8",
         "terminal.selectionBackground": "#081A2D",
         /*
 
@@ -874,9 +874,32 @@
         {
             "scope": "token.debug-token",
             "settings": {
-                "foreground": "#B267E6"
+                "foreground": "#AA7AFF"
             }
         },
+
+        {
+            "scope": "markup.heading",
+            "settings": {
+                "foreground": "#AA7AFF",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "scope": [
+                "markup.heading heading.1",
+                "markup.heading heading.1 markup.bold",
+                "markup.heading heading.1 markup.italic",
+                "markup.heading heading.1 markup.italic markup.bold",
+                "markup.heading heading.1 markup.bold markup.italic"
+            ],
+            "settings": {
+                "foreground": "#AA7AFF",
+                "fontStyle": "bold underline"
+            }
+        },
+
         {
             "name": "ILLEGAL/INVALID",
             "scope": "invalid.illegal",
@@ -887,7 +910,7 @@
         },
         {
             "name": "ALL CODE & TEXT (default)",
-            "scope": ["source", "text", "markup"],
+            "scope": ["source", "text"],
             "settings": {
                 "foreground": "#A5ACC4"
             }
@@ -1004,6 +1027,15 @@
         },
 
         {
+            "name": "MD LIST ENTRY TEXT",
+            "scope": "",
+            "settings": {
+                "foreground": "#4CCC44",
+                "fontStyle": ""
+            }
+        },
+
+        {
             "name": "[ALL] STRING & STRING-LIKE ENTITIES",
             "scope": [
                 "string",
@@ -1012,7 +1044,7 @@
                 "meta.scope.prerequisites"
             ],
             "settings": {
-                "foreground": "#80D470",
+                "foreground": "#4CCC44",
                 "fontStyle": "italic"
             }
         },
@@ -1029,7 +1061,7 @@
             "name": "",
             "scope": "text",
             "settings": {
-                "foreground": "#DDDDDD",
+                "foreground": "#C0C4D0",
                 "fontStyle": ""
             }
         },
@@ -1062,6 +1094,7 @@
             "name": "TAG-NAMES (Html, MD, Yaml) -&- PREPROCESSOR PUNCTUATION",
             "scope": [
                 "markup.bold markup.inline.raw.string",
+                "markup.bold",
                 "meta.preprocessor punctuation.definition.string",
                 "meta.preprocessor punctuation.definition",
                 "markup punctuation.definition",
@@ -1096,10 +1129,7 @@
         },
 
         {
-            "scope": [
-                "storage.type.modifier.access.control",
-                "heading.1.markdown"
-            ],
+            "scope": ["storage.type.modifier.access.control"],
             "settings": {
                 "foreground": "#3884FF",
                 "fontStyle": "bold underline"
@@ -1176,7 +1206,8 @@
         {
             "scope": [
                 "markup.bold markup.italic punctuation.definition",
-                "markup.italic markup.bold punctuation.definition"
+                "markup.italic markup.bold punctuation.definition",
+                "markup.inline.raw punctuation.definition.raw"
             ],
             "settings": {
                 "foreground": "#D8A42D",

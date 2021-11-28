@@ -63,7 +63,7 @@
         "editor.selectionHighlightBorder": "#2bb444",
         "editor.snippetFinalTabstopHighlightBackground": "#64e540",
         "editor.snippetFinalTabstopHighlightBorder": "#64e540",
-        "editor.snippetTabstopHighlightBackground": "#64e540",
+        "editor.snippetTabstopHighlightBackground": "#00000088",
         "editor.snippetTabstopHighlightBorder": "#64e540",
         "editor.wordHighlightBorder": "#64e540",
         "editorBracketHighlight.foreground1": "#00ccb0",
@@ -345,24 +345,24 @@
         "tab.unfocusedActiveBorderTop": "#2ee50c",
         "tab.unfocusedInactiveBackground": "#030920",
         "terminal.ansiBlack": "#000000",
-        "terminal.ansiBlue": "#80b0ff",
-        "terminal.ansiBrightBlack": "#555555",
-        "terminal.ansiBrightBlue": "#40c8ff",
-        "terminal.ansiBrightCyan": "#00eee0",
-        "terminal.ansiBrightGreen": "#a0ff80",
-        "terminal.ansiBrightMagenta": "#ff60ec",
-        "terminal.ansiBrightRed": "#ff0040",
-        "terminal.ansiBrightWhite": "#e8e8e8",
-        "terminal.ansiBrightYellow": "#ffc412",
+        "terminal.ansiBlue": "#3060ff",
+        "terminal.ansiBrightBlack": "#1c1e2e",
+        "terminal.ansiBrightBlue": "#50d0ff",
+        "terminal.ansiBrightCyan": "#00fff0",
+        "terminal.ansiBrightGreen": "#00d800",
+        "terminal.ansiBrightMagenta": "#ff30dd",
+        "terminal.ansiBrightRed": "#ff1020",
+        "terminal.ansiBrightWhite": "#ffffff",
+        "terminal.ansiBrightYellow": "#ffff40",
         "terminal.ansiCyan": "#24bcd8",
-        "terminal.ansiGreen": "#30a550",
-        "terminal.ansiMagenta": "#dd70ee",
-        "terminal.ansiRed": "#dd5542",
-        "terminal.ansiWhite": "#b0b0b0",
-        "terminal.ansiYellow": "#ddaa40",
-        "terminal.background": "#09193c",
+        "terminal.ansiGreen": "#40cc40",
+        "terminal.ansiMagenta": "#ff99ee",
+        "terminal.ansiRed": "#ee4038",
+        "terminal.ansiWhite": "#d8d8d8",
+        "terminal.ansiYellow": "#d49420",
+        "terminal.background": "#000000",
         "terminal.border": "#0050ff",
-        "terminal.foreground": "#2ee50c",
+        "terminal.foreground": "#d8d8d8",
         "terminal.selectionBackground": "#081a2d",
         "terminal.tab.activeBorder": "#0050ff",
         "terminalCursor.background": "#ffffff",
@@ -621,7 +621,27 @@
         {
             "scope": "token.debug-token",
             "settings": {
-                "foreground": "#B267E6"
+                "foreground": "#AA7AFF"
+            }
+        },
+        {
+            "scope": "markup.heading",
+            "settings": {
+                "foreground": "#AA7AFF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "markup.heading heading.1",
+                "markup.heading heading.1 markup.bold",
+                "markup.heading heading.1 markup.italic",
+                "markup.heading heading.1 markup.italic markup.bold",
+                "markup.heading heading.1 markup.bold markup.italic"
+            ],
+            "settings": {
+                "foreground": "#AA7AFF",
+                "fontStyle": "bold underline"
             }
         },
         {
@@ -632,7 +652,7 @@
             }
         },
         {
-            "scope": ["source", "text", "markup"],
+            "scope": ["source", "text"],
             "settings": {
                 "foreground": "#A5ACC4"
             }
@@ -735,7 +755,7 @@
                 "meta.scope.prerequisites"
             ],
             "settings": {
-                "foreground": "#80D470",
+                "foreground": "#4CCC44",
                 "fontStyle": "italic"
             }
         },
@@ -749,7 +769,7 @@
         {
             "scope": "text",
             "settings": {
-                "foreground": "#DDDDDD",
+                "foreground": "#C0C4D0",
                 "fontStyle": ""
             }
         },
@@ -777,6 +797,7 @@
         {
             "scope": [
                 "markup.bold markup.inline.raw.string",
+                "markup.bold",
                 "meta.preprocessor punctuation.definition.string",
                 "meta.preprocessor punctuation.definition",
                 "markup punctuation.definition",
@@ -808,10 +829,7 @@
             }
         },
         {
-            "scope": [
-                "storage.type.modifier.access.control",
-                "heading.1.markdown"
-            ],
+            "scope": ["storage.type.modifier.access.control"],
             "settings": {
                 "foreground": "#3884FF",
                 "fontStyle": "bold underline"
@@ -879,7 +897,8 @@
         {
             "scope": [
                 "markup.bold markup.italic punctuation.definition",
-                "markup.italic markup.bold punctuation.definition"
+                "markup.italic markup.bold punctuation.definition",
+                "markup.inline.raw punctuation.definition.raw"
             ],
             "settings": {
                 "foreground": "#D8A42D",
