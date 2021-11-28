@@ -2,7 +2,7 @@
     "name": "developers-dojo",
     "displayName": "Developer's Dojo",
     "description": "",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "JAYD3V",
     "license": "MIT",
     "icon": "res/icon.png",
@@ -10,7 +10,6 @@
         "color": "#15336C",
         "theme": "dark"
     },
-
     "repository": {
         "type": "git",
         "url": "https://github.com/W3Dojo/developers-dojo.git"
@@ -19,13 +18,12 @@
         "email": "W3Dojo@Gmail.com",
         "url": "https://github.com/W3Dojo/developers-dojo/issues"
     },
-
     "engines": {
         "vscode": "^1.62.0"
     },
-
-    "categories": ["Themes"],
-
+    "categories": [
+        "Themes"
+    ],
     "keywords": [
         "Theme",
         "Dark",
@@ -65,7 +63,6 @@
         "HTML",
         "CSS"
     ],
-
     "contributes": {
         "themes": [
             {
