@@ -2,20 +2,20 @@
 
 <br>
 
-[![Developers-Dojo-Preveiw.png](https://i.postimg.cc/fL8RJnFg/Developers-Dojo-Preveiw.png)](https://postimg.cc/ZBySMgJr)
+[![Dev-Dojo-Hdr.png](https://i.postimg.cc/7h080yfn/Dev-Dojo-Hdr.png)](https://postimg.cc/V0fVPp9J)
 
 <br><br>
 
-<h2 style="display: inline-block; color: #E86064;">NOTICE &nbsp; </h2> <strong style="font-size: 12px; color: #AC4CFF;">(2021–NOVEMBER–28TH)</strong>
+> --- 
+>
+> ##### __2021–11–28__
+> ### __NOTICE__
+>
+> &nbsp; &nbsp; &nbsp; &nbsp; If you are viewing this theme, I am glad that your here reading this. Currently this theme is under rapid development. If you check the changelog you will see lots of activity. I probably shouldn't have published it when I did, but its a done deal now, and for the most part, the theme is ready to use. I plan on posting an image for every language I custom highlight below. It is currently <strong><em>(2021-11-28)</em></strong> just to give you a time frame, if you do decide to view the `CHANGELOG` do view the <em><strong>CHANGELOG</strong></em></p>
+>
+> ---
 
-<p style="color: #E86064;">
-&nbsp; &nbsp; &nbsp; &nbsp; If you are viewing this theme, I am glad that your here reading this. Currently this theme is under rapid development. If you check the changelog you will see lots of activity. I probably shouldn't have published it when I did, but its a done deal now, and for the most part, the theme is ready to use. I plan on posting an image for every language I custom highlight below. It is currently <strong><em>(2021-11-28)</em></strong> just to give you a time frame if you do view the <em><strong>CHANGELOG</strong></em></p>
-
-<br>
-
---------------------------------------------------------------------------------
-
-<br>
+<br><br><br>
 
 ## ABOUT:
 

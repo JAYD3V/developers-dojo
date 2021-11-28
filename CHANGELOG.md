@@ -8,6 +8,23 @@
 ------------------------------------------------------------------------------->
 
 --------------------------------------------------------------------------------
+
+## [v0.1.3] - 2021-11-28
+
+<br>
+
+### REMOVED:
+1. Removed `./res/developers-dojo-vscode-theme-organized-by-group.json`. This file's purpose is for development reference and should have never been included in the production version of the theme.
+
+2. Removed `./res/documented-color-palettes.jsonc`. This file's purpose is for development reference and should have never been included in the production version of the theme.
+
+### CHANGED:
+1. Changed the image header in `README.md` so that the information it contains is now correct.
+
+<br>
+
+--------------------------------------------------------------------------------
+
 ## [v0.1.2] - 2021-11-28
 
 <br>
@@ -25,8 +42,8 @@
 
 <br>
 
-
 --------------------------------------------------------------------------------
+
 ## [v0.1.1] - 2021-11-27
 
 <br>
