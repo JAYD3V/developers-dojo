@@ -15,7 +15,6 @@
 
 ### REMOVED:
 1. Removed `./res/developers-dojo-vscode-theme-organized-by-group.json`. This file's purpose is for development reference and should have never been included in the production version of the theme.
-
 2. Removed `./res/documented-color-palettes.jsonc`. This file's purpose is for development reference and should have never been included in the production version of the theme.
 
 ### CHANGED:
@@ -50,7 +49,7 @@
 
 ### CHANGED:
 1. Changed the color of the terminal to be darker
-2. Changed the ASNI Colors of the terminal to be more saturated, and to contrast better
+2. Changed the ANSI Colors of the terminal to be more saturated, and to contrast better
 
 <br>
 
