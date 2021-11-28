@@ -1,22 +1,29 @@
-# Changelog
+# CHANGELOG: Developers Dojo
 
- 1. __[Unreleased](#vUnreleased)__
- 2. __[v0.0.2](#v0.0.2)__
- 3. *Release Pending*
 
-----------------------------------------
+------------------------------------------------------------
+## __[v0.0.3]__ - 2021-11-27
 
-<h2 id="vUnreleased">Unreleased</h2>
-Documented SCM Palette in ./res/
-<!----------------------------------------------------------
-   Unreleased Section: "Used to keep track of changes to the
-   project while the project is being worked on
------------------------------------------------------------->
+### REMOVED:
+- Unpublished Extension v0.0.2: `v0.0.2`** had an incorrect filename, as a
+result, when users attempted to to equip ***`Developer's Dojo`***, the theme 
+caused an error, and failed to render.
 
-----------------------------------------
+### FIXED:
 
-<br><br>
+- Corrected _`package.json`_
 
-<h2 id="v0.0.2">[0.0.2] - 2021-11-21</h2>
+<br>
 
-### Added
+------------------------------------------------------------
+## __[v0.0.2]__ - 2021-11-26
+
+<br>
+
+### ADDED:
+
+- Published Extension
+
+<br>
+
+------------------------------------------------------------

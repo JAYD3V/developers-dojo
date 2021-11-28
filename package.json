@@ -71,7 +71,7 @@
             {
                 "label": "Developer's Dojo",
                 "uiTheme": "vs-dark",
-                "path": "./themes/themes/developers-dojo-vscode-theme.json"
+                "path": "./themes/developers-dojo-vscode-theme.json"
             }
         ]
     }
