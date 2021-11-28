@@ -2,18 +2,44 @@
 
 ## UNPUBLISHED:
 
-<!--
-
-    An area where 'Project Developers' can list the changes that they have made,
-    but have not published publicly yet. It is unacceptable that any change to
-    this project that affects its public/production state, gets missed, and
-    eludes this list, therefore; its highly suggested that developers make use
-    of this space.
-
--->
+<!------------------------------------------------------------------------------
+ This is an area where the 'Project Developer(s)' can list the changes that they
+ have made, but have not published publicly yet.
+------------------------------------------------------------------------------->
 
 --------------------------------------------------------------------------------
-## __[v0.1.0] -__ 2021-11-27
+## [v0.1.2] - 2021-11-28
+
+<br>
+
+### FIXED:
+1. Fixed the terminal so its not so dark. v0.1.1 set it at a pure black, which was a mistake. This version fixes that.
+2. Fixed the _`editorGroupHeader.border`_ property so that the area above it looks as if it sits above the text editor, as it is suppose to look.
+3. Fixed _`editorGroupHeader.tabsBorder`_ property so that it isn't so saturated. Borders should not pop-out at the user as the _header-tabsBorder_ was.
+4. Fixed the color of the `panelTitle.activeBorder` so that it isn't as saturated.
+
+### CHANGED:
+1. Changed the background color of the editor's panels, inactive-tabs, and the activitybar. The color is similar, a little less blue, it appears more black, and is lighter than the previous color, which also appeared to be almost black, but defiantly had more of a blue tone and was darker.
+2. Changed the color of the `panelTitle.inactiveForeground` from a pastel dark green to a semi-visible grey
+3. Changed the color of the `panelTitle.activeForeground` from a very saturated green, to a saturated white.
+
+<br>
+
+
+--------------------------------------------------------------------------------
+## [v0.1.1] - 2021-11-27
+
+<br>
+
+### CHANGED:
+1. Changed the color of the terminal to be darker
+2. Changed the ASNI Colors of the terminal to be more saturated, and to contrast better
+
+<br>
+
+--------------------------------------------------------------------------------
+
+## [v0.1.0] - 2021-11-27
 
 <br>
 
@@ -34,7 +60,7 @@ the same color as the text. **_(SEE #4 in ADDED above)_**
 <br>
 
 --------------------------------------------------------------------------------
-## __[v0.0.3] -__ 2021-11-27
+## [v0.0.3] - 2021-11-27
 
 <br>
 
@@ -50,7 +76,7 @@ caused an error, and failed to render.
 <br>
 
 --------------------------------------------------------------------------------
-## __[v0.0.2]__ - 2021-11-26
+## [v0.0.2] - 2021-11-26
 
 <br>
 
