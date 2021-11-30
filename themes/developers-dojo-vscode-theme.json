@@ -126,7 +126,7 @@
         "editorOverviewRuler.warningForeground": "#ffff00",
         "editorOverviewRuler.wordHighlightForeground": "#a0a0a0cc",
         "editorOverviewRuler.wordHighlightStrongForeground": "#c0a0c0cc",
-        "editorRuler.foreground": "#205e901c",
+        "editorRuler.foreground": "#2080C41A",
         "editorSuggestWidget.background": "#061730",
         "editorSuggestWidget.border": "#109cec",
         "editorSuggestWidget.focusHighlightForeground": "#70f824de",
@@ -176,20 +176,20 @@
         "keybindingLabel.border": "#103864",
         "keybindingTable.headerBackground": "#103864",
         "keybindingTable.rowsBackground": "#103864",
-        "list.activeSelectionBackground": "#003420",
-        "list.activeSelectionForeground": "#30E010",
+        "list.activeSelectionBackground": "#003090",
+        "list.activeSelectionForeground": "#10EEC4",
         "list.activeSelectionIconForeground": "#30E010",
         "list.deemphasizedForeground": "#103864",
         "list.dropBackground": "#383b3d",
         "list.errorForeground": "#ff1810",
         "list.filterMatchBorder": "#0eee99",
-        "list.focusBackground": "#04380c",
+        "list.focusBackground": "#242090",
 
         "list.focusForeground": "#30E010",
         "list.focusHighlightForeground": "#38afe4",
-        "list.focusOutline": "#40b000",
+        "list.focusOutline": "#20AAA0",
         "list.highlightForeground": "#38afe4",
-        "list.hoverBackground": "#004444",
+        "list.hoverBackground": "#003090",
         "list.hoverForeground": "#30E010",
         "list.inactiveFocusBackground": "#80ffcc2d",
         "list.inactiveFocusOutline": "#103864",
@@ -257,8 +257,8 @@
         "problemsErrorIcon.foreground": "#ff1810",
         "problemsInfoIcon.foreground": "#30d430",
         "problemsWarningIcon.foreground": "#ddff00",
-        "quickInput.background": "#205AA0",
-        "quickInput.foreground": "#dddddd",
+        "quickInput.background": "#071C40",
+        "quickInput.foreground": "#B7B7B7",
         "remoteHub.decorations.addedForegroundColor": "#10d8b8",
         "remoteHub.decorations.deletedForegroundColor": "#e02090",
         "remoteHub.decorations.incomingAddedForegroundColor": "#10d8b8",
@@ -633,19 +633,7 @@
                 "fontStyle": "bold"
             }
         },
-        {
-            "scope": [
-                "markup.heading heading.1",
-                "markup.heading heading.1 markup.bold",
-                "markup.heading heading.1 markup.italic",
-                "markup.heading heading.1 markup.italic markup.bold",
-                "markup.heading heading.1 markup.bold markup.italic"
-            ],
-            "settings": {
-                "foreground": "#AA7AFF",
-                "fontStyle": "bold underline"
-            }
-        },
+
         {
             "scope": "invalid.illegal",
             "settings": {
@@ -680,38 +668,47 @@
                 "comment.block storage.type.class"
             ],
             "settings": {
-                "foreground": "#20C0C072",
+                "foreground": "#1CCAA0A0",
                 "fontStyle": ""
             }
         },
         {
+            "name": "CLASSES, OBJECTS, MUP/MD HDR",
             "scope": [
-                "entity.type",
-                "entity.name.class",
-                "entity.name.type.class",
                 "support.class",
                 "support.type.object",
-                "meta.using-namespace entity.name.namespace"
+                "variable.other.object",
+                "entity.type",
+                "entity.class",
+                "entity.name.class",
+                "entity.name.type.class",
+                // Yes everything here is somewhere in some language. No I don't need to use each one, I could probably eliminate a couple and not F-up the highlighting of any language, but I leave them incase I ever need to reference them, or want to copy and paste them. Its honestly ridiculous that the people making the grammars don't cross examine each-others work more; if they looked at what the other one was doing, we wouldn't need 5 different entity.name scopes for classes.
+                "entity.type",
+                "entity.name.type",
+                "entity.name.type.class",
+                "meta.using-namespace entity.name.namespace",
+                "markup.heading heading.1",
+                "markup.heading heading.1 markup.bold",
+                "markup.heading heading.1 markup.italic",
+                "markup.heading heading.1 markup.italic markup.bold",
+                "markup.heading heading.1 markup.bold markup.italic"
             ],
             "settings": {
-                "foreground": "#20C0C0",
+                "foreground": "#1CCAA0",
                 "fontStyle": ""
             }
         },
+
         {
-            "scope": ["variable.other.object", "variable.language.this"],
-            "settings": {
-                "foreground": "#20C0C0",
-                "fontStyle": ""
-            }
-        },
-        {
+            "name": "Special Lexically Scoped Object Reference: 'THIS'",
             "scope": ["variable.language.this"],
             "settings": {
                 "fontStyle": "italic"
             }
         },
+
         {
+            "name": "FUNCTIONS, METHODS, HTML TAG-NAMES, YAML TAGS, CSS-SELECTORS",
             "scope": [
                 "entity.name.tag",
                 "entity.name.function",
@@ -721,13 +718,13 @@
                 "entity.name.function.definition.special.constructor"
             ],
             "settings": {
-                "foreground": "#15BEEE"
+                "foreground": "#1CC0F1"
             }
         },
         {
             "scope": "meta.class.body.js meta.function.method.js entity.name.function.method.js",
             "settings": {
-                "foreground": "#15BEEE",
+                "foreground": "#1CC0F1",
                 "fontStyle": "underline"
             }
         },
@@ -740,7 +737,7 @@
                 "entity.name.function.definition.special.constructor"
             ],
             "settings": {
-                "foreground": "#15BEEE",
+                "foreground": "#1CC0F1",
                 "fontStyle": ""
             }
         },
@@ -898,6 +895,15 @@
                 "fontStyle": "italic"
             }
         },
+
+        {
+            "scope": "comment.block variable.parameter",
+            "settings": {
+                "foreground": "#D8A42D80",
+                "fontStyle": "italic"
+            }
+        },
+
         {
             "scope": [
                 "markup.bold markup.italic punctuation.definition",
