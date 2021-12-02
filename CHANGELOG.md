@@ -2,37 +2,133 @@
 
 <br>
 
-### **VERSION LIST CONTENTS**
+### CHANGELOG TYPES:
 
-<br>
+- ##### **ADDED**
+- ##### **REMOVED**
+- ##### **DEPRECATED**
+- ##### **BROKEN**
+- ##### **FIXED**
+- ##### **CHANGED**
 
-|  #  | VERSION              |    DATE    | QTY |
-| :-: | :------------------- | :--------: | --: |
-| #9  | **[v0.1.6](#0.1.6)** | 2021-11-30 | x25 |
-| #8  | **[v0.1.5](#0.1.5)** | 2021-11-29 |  x6 |
-| #7  | **[v0.1.4](#0.1.4)** | 2021-11-28 | x16 |
-| #6  | **[v0.1.3](#0.1.3)** | 2021-11-28 |  x3 |
-| #5  | **[v0.1.2](#0.1.2)** | 2021-11-27 |  X7 |
-| #4  | **[v0.1.1](#0.1.1)** | 2021-11-27 |  X2 |
-| #3  | **[v0.1.0](#0.1.0)** | 2021-11-27 |  X6 |
-| #2  | **[v0.0.3](#0.0.3)** | 2021-11-26 |  X2 |
-| #1  | **[v0.0.2](#0.0.2)** | 2021-11-26 |  X1 |
+<br><br>
 
-<br>
-<br>
+### TABLE of VERSIONS
 
 ---
+
+|  \#ID | VER                  | DATE       | QTY | NOTE |
+| ----: | :------------------- | ---------- | :-: | :--: |
+| \#010 | **[v0.1.7](#0.1.7)** | 2021-12-01 | 60  | YES  |
+| \#009 | **[v0.1.6](#0.1.6)** | 2021-11-30 | 25  | YES  |
+| \#008 | **[v0.1.5](#0.1.5)** | 2021-11-29 |  6  |  NO  |
+| \#007 | **[v0.1.4](#0.1.4)** | 2021-11-28 | 16  |  NO  |
+| \#006 | **[v0.1.3](#0.1.3)** | 2021-11-28 |  3  |  NO  |
+| \#005 | **[v0.1.2](#0.1.2)** | 2021-11-27 |  7  |  NO  |
+| \#004 | **[v0.1.1](#0.1.1)** | 2021-11-27 |  2  |  NO  |
+| \#003 | **[v0.1.0](#0.1.0)** | 2021-11-27 |  6  |  NO  |
+| \#002 | **[v0.0.3](#0.0.3)** | 2021-11-26 |  2  |  NO  |
+| \#001 | **[v0.0.2](#0.0.2)** | 2021-11-26 |  1  |  NO  |
+
+<br>
+
+###### &bull; **`#ID` = Change Identifier –** _"A Unique identifier thats assigned to each change."_
+
+###### &bull; **`QTY` = Number of Changes –** _"Tracks number of changes that were logged for the given version."_
+
+###### &bull; **`NOTE` = Number of Changes –** _"Additional note added to the log."_
+
+---
+
+<br>
+<br>
 
 ## **UNPUBLISHED**
 
----
-
-<br><br>
-<br><br>
+- **_Empty..._**
 
 ---
 
 ## <a id="0.1.6"></a> **0.1.6** (2021-11-30)
+
+1. **CHANGED** the color of `activityBar.activeBorder` to `#14EC90`.
+2. **CHANGED** the color of `activityBarBadge.foreground` to `#14EC90`.
+3. **CHANGED** the color of `badge.foreground` to `#14EC90`.
+4. **CHANGED** the color of `breadcrumb.activeSelectionForeground` to `#14EC90`.
+5. **CHANGED** the color of `breadcrumb.focusForeground` to `#14EC90`.
+6. **CHANGED** the color of `debugIcon.continueForeground` to `#14EC90`.
+7. **CHANGED** the color of `debugIcon.startForeground` to `#14EC90`.
+8. **CHANGED** the color of `editorGutter.foldingControlForeground` to `#14EC90`.
+9. **CHANGED** the color of `inputOption.activeBorder` to `#14EC90`.
+10. **CHANGED** the color of `list.activeSelectionIconForeground` to `#14EC90`.
+11. **CHANGED** the color of `list.focusForeground` to `#14EC90`.
+12. **CHANGED** the color of `list.hoverForeground` to `#14EC90`.
+13. **CHANGED** the color of `list.inactiveSelectionIconForeground` to `#14EC90`.
+14. **CHANGED** the color of `tab.activeBorderTop` to `#14EC90`.
+15. **CHANGED** the color of `tab.unfocusedActiveBorderTop` to `#14EC90`.
+16. **CHANGED** the color of `window.activeBorder` to `#14EC90`.
+17. **CHANGED** the color of `extensionBadge.remoteForeground` to `#14EC90`.
+18. **CHANGED** the color of `list.filterMatchBorder` to `#14EC90`.
+19. **CHANGED** the color of `symbolIcon.arrayForeground` to `#14EC90`.
+20. **CHANGED** the color of `symbolIcon.booleanForeground` to `#14EC90`.
+21. **CHANGED** the color of `editorCursor.foreground` to `#14EC90`.
+22. **CHANGED** the color of `editorInfo.foreground` to `#14EC90`.
+23. **CHANGED** the color of `editorInlayHint.foreground` to `#14EC90`.
+24. **CHANGED** the color of `editorInlayHint.parameterForeground` to `#14EC90`.
+25. **CHANGED** the color of `editorInlayHint.typeForeground` to `#14EC90`.
+26. **CHANGED** the color of `editorLightBulb.foreground` to `#14EC90`.
+27. **CHANGED** the color of `editorLightBulbAutoFix.foreground` to `#14EC90`.
+28. **CHANGED** the color of `editorLineNumber.activeForeground` to `#14EC90`.
+29. **CHANGED** the color of `editorOverviewRuler.infoForeground` to `#14EC90`.
+30. **CHANGED** the color of `symbolIcon.colorForeground` to `#14EC90`.
+31. **CHANGED** the color of `symbolIcon.constantForeground` to `#14EC90`.
+32. **CHANGED** the color of `symbolIcon.constructorForeground` to `#14EC90`.
+33. **CHANGED** the color of `symbolIcon.fileForeground` to `#14EC90`.
+34. **CHANGED** the color of `symbolIcon.folderForeground` to `#14EC90`.
+35. **CHANGED** the color of `symbolIcon.functionForeground` to `#14EC90`.
+36. **CHANGED** the color of `symbolIcon.keyForeground` to `#14EC90`.
+37. **CHANGED** the color of `symbolIcon.keywordForeground` to `#14EC90`.
+38. **CHANGED** the color of `symbolIcon.methodForeground` to `#14EC90`.
+39. **CHANGED** the color of `symbolIcon.moduleForeground` to `#14EC90`.
+40. **CHANGED** the color of `symbolIcon.namespaceForeground` to `#14EC90`.
+41. **CHANGED** the color of `symbolIcon.nullForeground` to `#14EC90`.
+42. **CHANGED** the color of `symbolIcon.numberForeground` to `#14EC90`.
+43. **CHANGED** the color of `symbolIcon.objectForeground` to `#14EC90`.
+44. **CHANGED** the color of `symbolIcon.operatorForeground` to `#14EC90`.
+45. **CHANGED** the color of `symbolIcon.packageForeground` to `#14EC90`.
+46. **CHANGED** the color of `symbolIcon.propertyForeground` to `#14EC90`.
+47. **CHANGED** the color of `symbolIcon.referenceForeground` to `#14EC90`.
+48. **CHANGED** the color of `symbolIcon.snippetForeground` to `#14EC90`.
+49. **CHANGED** the color of `symbolIcon.stringForeground` to `#14EC90`.
+50. **CHANGED** the color of `symbolIcon.structForeground` to `#14EC90`.
+51. **CHANGED** the color of `symbolIcon.textForeground` to `#14EC90`.
+52. **CHANGED** the color of `symbolIcon.typeParameterForeground` to `#14EC90`.
+53. **CHANGED** the color of `symbolIcon.unitForeground` to `#14EC90`.
+54. **CHANGED** the color of `terminalCursor.foreground` to `#14EC90`.
+55. **CHANGED** the color of `textPreformat.foreground` to `#14EC90`.
+56. **CHANGED** the color of `banner.iconForeground` to `#14EC90`.
+57. **CHANGED** the color of `charts.blue` to `#14EC90`.
+58. **CHANGED** the color of `debugConsole.infoForeground` to `#14EC90`.
+59. **CHANGED** the color of `editorMarkerNavigationInfo.background` to `#14EC90`.
+60. **CHANGED** the color of `notificationsInfoIcon.foreground` to `#14EC90`.
+
+<br>
+
+<br>
+
+### **_NOTES:_**
+
+- ##### _"This change was about unifying the caribbean/blue-green colors into a single color."_
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 ---
 
@@ -40,8 +136,8 @@
 
 1. **CHANGED** "input.background" from a pure black, `"#000000"`, to a red smokey: `#0E0A08`. You can't see the redness, but it makes it pop against the blue, with out being so black. The pure blacks create to much contrast, so I will be attempting to alter all pure black theme-property values.
 2. **CHANGED** Set about 70% of the Symbol-Icons that show up in places like the suggestions widget, and breadcrumbs (under the editor-tabs) to the color `#32EEC4`, and set the rest to `#FFB000`. In truth I just split them up in a pseudo-random fashion. When the theme is more complete I will take more time to be selective.
-3. **CHANGED** Bg-clr of the Status-bar to #004488
-4. **CHANGED** Bg-clr of all badges to #004488
+3. **CHANGED** Bg-clr of the Status-bar to [#004488](https://github.com/W3Dojo/developers-dojo/issues/004488)
+4. **CHANGED** Bg-clr of all badges to [#004488](https://github.com/W3Dojo/developers-dojo/issues/004488)
 5. **CHANGED** Badges Fg-clr to #32EEC4
 6. **CHANGED** Status-bar fg-clr to #E8ECFF
 7. **CHANGED** `icon.foreground` to `#FFB000`
@@ -59,10 +155,9 @@
 19. **CHANGED** the color of `panel.background` to `#080E1F` so that the property matches with tabs-group bg, activity-bar, panels & inactive-tabs.
 20. **CHANGED** the color of `tab.inactiveBackground` to `#080E1F` so that the property matches with tabs-group bg, activity-bar, panels & inactive-tabs.
 21. **CHANGED** Source/Version Control for Modified/Added/Untracked (not staged) to `#70E020`. This was sort of a fix, because somehow modified & added were not the colors that they were being documented as. Fortunately no documentation on them was made public, so this is the color that modified will be for the time being.
-21. **CHANGED** Source/Version Control for Modified/Added (staged) to `#F59030`. Changed the color so the orange is not so saturated.
+22. **CHANGED** Source/Version Control for Modified/Added (staged) to `#F59030`. Changed the color so the orange is not so saturated.
 
-
-##### note: Because CHANGED #10 - CHANGED #14 was a color refactor, and **CHANGED** #7 - **CHANGED** 9 was also a color refactor, there are properties that changed that I am unaware of, which is why I recolored the properties using a refactor. To get the full list of everything that changed refer to the repository GitHub history Commit ID \#
+<br>
 
 ### **ADDED**
 
@@ -70,6 +165,16 @@
 2. **ADDED** `semanticHighlighting` property to the `developers-dojo-vscode-theme.json` file, and set it to true. Now it will automatically set semanticHighlighting to true for anyone who uses the default VS Code configuration `{ "editor.semanticHighlighting.enabled": true }`
 3. **ADDED** `semanticTokenColors` property `"namespace": {...}`, changed namespace from caribbean greenish color, to the standard palette purple color.
 4. **ADDED** `semanticTokenColors` property `"memberOperatorOverload": {...}`, changed namespace from caribbean greenish color, to the standard palette purple color.
+
+<br>
+
+<br>
+
+### **_NOTES:_**
+
+- ##### _"This change was made to better harmonize the colors that are seen reoccurring through out the theme. The two colors of focus were #0A2855 & #FFB000, which are new colors that if you read up top, many colors were changed to, though the old colors were both in the same ball park (they were dark blue & yellow before). The colors were slightly changed because they create better color harmonies."_
+
+<br>
 
 <br>
 
@@ -106,8 +211,13 @@
 2. **FIXED** the incorrect coloring of classes, namespaces, _'special lexically-scoped object name'_ **_`THIS`_** (or **_`this`_**). It was set to `#2CC0C0`, but it was suppose to be the CARIBBEAN values in the documentation.
 
 <br>
+
 <br>
+
 <br>
+
+<br>
+
 <br>
 
 ---
@@ -121,7 +231,7 @@
 1. **CHANGED** the color of a all "Tag-names" (or `"entity.name.tags"`) TO (HTML, YAML, etc...) to the color "Capri" (or `#15BEEE`).
 2. **CHANGED** the color of the "Scroll-bars" bg-clr from green to blue.
 3. **CHANGED** the color of the "Scroll-bars" "onHover" bg-clr from green to `#FFAC10`
-4. **CHANGED** the General Icon color (`icon.foreground`) from yellow to orange since the original bg-clrs for the editor, sidebar, panels & activity bar all CHANGED, the color `#FFAC10` is more harmonic than the original `#FF6010`. This change may include some properties not listed here. To see the exact changes you can view the "Version History" in the project repository, and the Commit ID that includes the changes listed for `v0.1.4` is list in the **_Info Section_** below.
+4. **CHANGED** the General Icon color (`icon.foreground`) from yellow to orange since the original bg-clrs for the editor, sidebar, panels & activity bar all CHANGED, the color `#FFAC10` is more harmonic than the original `#FF6010`.
 5. **CHANGED** Activity-bar's bg-clr so that it is closer to a true black than a blue.
 6. **CHANGED** Activity-bar's fg-clr so that it matches the BG Color that it was CHANGED to
 7. **CHANGED** Activity-bar's Inactive fg-clr so that it matches the activityBar bg-clr, which was also CHANGED _(@see [#6](https://github.com/W3Dojo/developers-dojo/issues/6) of v0.1.4)._
@@ -138,12 +248,23 @@
 1. **FIXED** the Menu-BG so that it is no longer set with its opacity at less than 100%. It looked kind of cool so I left it, but it wasn't ever suppose to have been set to 92% Opacity. Now the menu-bg is 100% opaque `#061730`.
 2. **CHANGED** "editorWidget.background" so that it is no longer set with its opacity at less than 100% `#061730`.
 
-### **INFO**
-
-- A. `Commit ID: 751d04327a04967478f36e0f07277b6c139235f3
+<br>
 
 <br>
+
+### **_NOTES:_**
+
+- ##### _"This change may include some properties not listed here. To see the exact changes you can view the "Version History" in the project repository, and the Commit ID that includes the changes listed for `v0.1.4` is list in the NOTE below."_
+- **COMMIT ID:** **`751d04327a04967478f36e0f07277b6c139235f3`**
+
 <br>
+
+<br>
+
+<br>
+
+<br>
+
 <br>
 
 ---
@@ -152,12 +273,12 @@
 
 ---
 
-### REMOVED
+### **REMOVED**
 
 1. **REMOVED** `./res/developers-dojo-vscode-theme-organized-by-group.json`. This file's purpose is for development reference and should have never been included in the production version of the theme.
 2. **REMOVED** `./res/documented-color-palettes.jsonc`. This file's purpose is for development reference and should have never been included in the production version of the theme.
 
-### CHANGED
+### **CHANGED**
 
 1. **CHANGED** the image header in `README.md` so that the information it contains is now correct
 
@@ -171,21 +292,27 @@
 
 ---
 
-### FIXED
+### **FIXED**
 
 1. **FIXED** the terminal so its not so dark. v0.1.1 set it at a pure black, which was a mistake. This version fixes that.
 2. **FIXED** the _`editorGroupHeader.border`_ property so that the area above it looks as if it sits above the text editor, as it is suppose to look.
 3. **FIXED** _`editorGroupHeader.tabsBorder`_ property so that it isn't so saturated. Borders should not pop-out at the user as the _header-tabsBorder_ was.
 4. **FIXED** the color of the `panelTitle.activeBorder` so that it isn't as saturated.
 
-### CHANGED
+### **CHANGED**
 
 1. **CHANGED** the background color of the editor's panels, inactive-tabs, and the activitybar. The color is similar, a little less blue, it appears more black, and is lighter than the previous color, which also appeared to be almost black, but defiantly had more of a blue tone and was darker.
 2. **CHANGED** the color of the `panelTitle.inactiveForeground` from a pastel dark green to a semi-visible grey
 3. **CHANGED** the color of the `panelTitle.activeForeground` from a very saturated green, to a saturated white
 
 <br>
+
 <br>
+
+<br>
+
+<br>
+
 <br>
 
 ---
@@ -194,13 +321,19 @@
 
 ---
 
-### CHANGED
+### **CHANGED**
 
 1. **CHANGED** the color of the terminal to be darker
 2. **CHANGED** the ANSI Colors of the terminal to be more saturated, and to contrast better
 
 <br>
+
 <br>
+
+<br>
+
+<br>
+
 <br>
 
 ---
@@ -209,14 +342,14 @@
 
 ---
 
-### ADDED
+### **ADDED**
 
 1. Markdown syntax highlighting.
 2. **CHANGED** the terminal border so it is no longer red.
 3. Bumped the version to v0.1.0, since the first publication was a flop.
 4. **CHANGED** Snippet/Emmet highlight bg so that its semi-transparent, and black.
 
-### FIXED
+### **FIXED**
 
 1. Rewrote the _`README.md`_ document in a way that's supported by _V.S. Code's_ extension preview (I had HTML tags in the _`README.md`_ file that the extension readme preview did not support).
 2. **FIXED** Snippet/Emmet highlighting bg-clr. Before the change, any text auto-inserted by a snippet &/or emmet was not visible as the highlighting-bg was the same color as the text.
@@ -231,13 +364,13 @@
 
 ---
 
-### REMOVED
+### **REMOVED**
 
 - Unpublished Extension v0.0.2: `v0.0.2`** had an incorrect filename, as a
   result, when users attempted to to equip \***`Developer's Dojo`\*\*\*, the theme
   caused an error, and failed to render.
 
-### FIXED
+### **FIXED**
 
 - Corrected _`package.json`_
 
