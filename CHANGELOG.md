@@ -2,24 +2,13 @@
 
 <br>
 
-### CHANGELOG TYPES:
+### VERSIONS:
 
-- ##### **ADDED**
-- ##### **REMOVED**
-- ##### **DEPRECATED**
-- ##### **BROKEN**
-- ##### **FIXED**
-- ##### **CHANGED**
-
-<br><br>
-
-### TABLE of VERSIONS
-
----
+<br>
 
 |  \#ID | VER                  | DATE       | QTY | NOTE |
 | ----: | :------------------- | ---------- | :-: | :--: |
-| \#010 | **[v0.1.7](#0.1.7)** | 2021-12-01 | 60  | YES  |
+| \#010 | **[v0.1.7](#0.1.7)** | 2021-12-01 | 61  | YES  |
 | \#009 | **[v0.1.6](#0.1.6)** | 2021-11-30 | 25  | YES  |
 | \#008 | **[v0.1.5](#0.1.5)** | 2021-11-29 |  6  |  NO  |
 | \#007 | **[v0.1.4](#0.1.4)** | 2021-11-28 | 16  |  NO  |
@@ -38,18 +27,23 @@
 
 ###### &bull; **`NOTE` = Number of Changes –** _"Additional note added to the log."_
 
----
-
-<br>
 <br>
 
-## **UNPUBLISHED**
+<br>
 
-- **_Empty..._**
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 ---
 
-## <a id="0.1.6"></a> **0.1.6** (2021-11-30)
+## <a id="0.1.7"></a> **0.1.7** (2021-12-01)
+
+---
 
 1. **CHANGED** the color of `activityBar.activeBorder` to `#14EC90`.
 2. **CHANGED** the color of `activityBarBadge.foreground` to `#14EC90`.
@@ -114,11 +108,15 @@
 
 <br>
 
+**FIXED**
+
+1. Fixed some spelling & grammar mistakes in README.md, although many more mistakes exist.
+
 <br>
 
 ### **_NOTES:_**
 
-- ##### _"This change was about unifying the caribbean/blue-green colors into a single color."_
+-   ##### _"This change was about unifying the caribbean/blue-green colors into a single color."_
 
 <br>
 
@@ -129,6 +127,10 @@
 <br>
 
 <br>
+
+---
+
+## <a id="0.1.6"></a> **0.1.6** (2021-11-30)
 
 ---
 
@@ -172,7 +174,7 @@
 
 ### **_NOTES:_**
 
-- ##### _"This change was made to better harmonize the colors that are seen reoccurring through out the theme. The two colors of focus were #0A2855 & #FFB000, which are new colors that if you read up top, many colors were changed to, though the old colors were both in the same ball park (they were dark blue & yellow before). The colors were slightly changed because they create better color harmonies."_
+-   ##### _"This change was made to better harmonize the colors that are seen reoccurring through out the theme. The two colors of focus were #0A2855 & #FFB000, which are new colors that if you read up top, many colors were changed to, though the old colors were both in the same ball park (they were dark blue & yellow before). The colors were slightly changed because they create better color harmonies."_
 
 <br>
 
@@ -254,8 +256,8 @@
 
 ### **_NOTES:_**
 
-- ##### _"This change may include some properties not listed here. To see the exact changes you can view the "Version History" in the project repository, and the Commit ID that includes the changes listed for `v0.1.4` is list in the NOTE below."_
-- **COMMIT ID:** **`751d04327a04967478f36e0f07277b6c139235f3`**
+-   ##### _"This change may include some properties not listed here. To see the exact changes you can view the "Version History" in the project repository, and the Commit ID that includes the changes listed for `v0.1.4` is list in the NOTE below."_
+-   **COMMIT ID:** **`751d04327a04967478f36e0f07277b6c139235f3`**
 
 <br>
 
@@ -366,13 +368,13 @@
 
 ### **REMOVED**
 
-- Unpublished Extension v0.0.2: `v0.0.2`** had an incorrect filename, as a
-  result, when users attempted to to equip \***`Developer's Dojo`\*\*\*, the theme
-  caused an error, and failed to render.
+-   Unpublished Extension v0.0.2: `v0.0.2`** had an incorrect filename, as a
+    result, when users attempted to to equip \***`Developer's Dojo`\*\*\*, the theme
+    caused an error, and failed to render.
 
 ### **FIXED**
 
-- Corrected _`package.json`_
+-   Corrected _`package.json`_
 
 <br>
 <br>
