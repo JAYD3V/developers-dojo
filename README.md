@@ -101,10 +101,10 @@ Obviously, no mater what experience you have with VSCode, this theme can be used
 
 |  #  | SUGGESTION                                  |
 | :-: | :------------------------------------------ |
-| #1  | [LINE LENGTH RULER](#cnf-sug-01)            |
-| #2  | [FONT FAMILY](#cnf-sug-02)                  |
-| #3  | [BRACKET PAIRS & INDENT GUIDES](#cnf-sug-03) |
-| #4  | More coming soon...                         |
+| [#1](https://github.com/W3Dojo/developers-dojo/issues/1)  | [LINE LENGTH RULER](#cnf-sug-01)            |
+| [#2](https://github.com/W3Dojo/developers-dojo/issues/2)  | [FONT FAMILY](#cnf-sug-02)                  |
+| [#3](https://github.com/W3Dojo/developers-dojo/issues/3)  | [BRACKET PAIRS & INDENT GUIDES](#cnf-sug-03) |
+| [#4](https://github.com/W3Dojo/developers-dojo/issues/4)  | More coming soon...                         |
 
 <br><br>
 <br><br>
@@ -217,7 +217,7 @@ Obviously, no mater what experience you have with VSCode, this theme can be used
 
 <br>
 
-##### NOTE: So I would never suggest a 3rd party extension in a README document. The reason I mention this, is because the feature that **SUGGESTION #3** covers, is one that was only made available by 3rd party extensions until just recently (a month or two before authoring this in Nov of 2021).
+It use to be that the feature mentioned in this excerpt was available through extensions only, however; **_`bracket-pair-highlighting`_** is now a _native VS Code feature_. Adjusting your **_`bracket-pair-highlighting`_** configuration is not hard, but it can be more involved than many might think. There are a surprisingly large amount of settings that affect it, but this is good, because it allows you to create a highly-customized and pimp'd the f'out environment. Bracket-pair-highlighting is definitely analogous to a rapper and bling (its bling for your editor).
 
 <br>
 
@@ -230,18 +230,20 @@ Obviously, no mater what experience you have with VSCode, this theme can be used
 <br><br>
 
 -   **Suggested:**
-
-    -   Using only a hand full of settings, you can amazing achieve quite a bit of customization using the Bracket-pairs Highlighting Feature. Really its actually two features in one, right? I'm sure some of you reading this realize that, but if your newer all of the available configurations may be a bit overwhelming. You have indent-guide highlighting, which places indent guides in your editor, and you have the bracket pair highlighting which highlights brackets that complete a block (or in many OOP languages, **_"a closure"_**).
-
-    -   Below I will show you my configuration, add some comments, but you are going to have to play with the settings to see what works for you. The hard part at first is knowing which settings are available for making changes to the specific feature, and that much I can do for. Playing with it is the harder part, but its also the fun part.
+    - Below are the settings, and some configuration notes to help you set the your **_`bracket-pair-highlighting`_** up in your dev environment. Remember, not only to the the `editor.guides.bracketPairs` settings affect what your doing, but the `editor.guides.indentation` settings also change the highlighting of the indent guides that can be turned on all the time, or just turned on for the line that your cursor is focused on.
 
 <br><br>
 
 -   **Configuration:**
+
     - **`editor.bracketPairColorization.enabled` —** _Enables the BracketPair Highlighting Feature._
-    - **`editor.guides.bracketPairs` —** _Enables the multicolor scheme to highlight the indent guides. The indent-guides can be colored by two different theme settings, this determines which one colors the indent guides. One is mono-chromatic, and the other is poly-chromatic. (single-color, many-colors)_
+
+    - **`editor.guides.bracketPairs` —** Enables the multicolor scheme to highlight the indent guides. Its important to note that the indent-guides can take on colors from two different settings that are set in the theme you have equipped. The default color is the one set in the `editorIndentGuide.activeBackground` property. However, since the **_`bracket-pair-highlighting`_** feature released, your indent guides will take the `editorBracketHighlight.foreground<#>`'s color. In other words, you can set the indent guides to highlight using a monochromatic (single color) scheme, or a monochromatic scheme that's set by the same colors set for your bracket-pairs.
+
     - **`editor.guides.highlightActiveBracketPair` —** _Colors Brackets at all times_ (see Cpp image, look at the braces & parenthesis).
+
     - **`editor.guides.highlightActiveIndentation` —** Highlights the active indent guide. If `editor.guides.bracketPairs` is turned off, it will take the value of the default indent guide color, which is set by the tokenColors property: `editorIndentGuide.activeBackground`, and in this theme it is set to: `#2bb444`
+
     - **`editor.guides.indentation` —**
 
 ```
