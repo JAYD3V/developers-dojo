@@ -16,7 +16,8 @@
 
 |  \#ID | VER                  | DATE       | QTY | NOTE |
 | ----: | :------------------- | ---------- | :-: | :--: |
-| \#011 | **[v0.1.8](#0.1.8)** | 2021-12-01 | 10  |  NO  |
+|  #012 | **[v1.8.2](#1.8.0)** | 2021-12-04 | 16+ | YES  |
+| \#011 | **[v0.1.8](#0.1.8)** | 2021-12-03 | 10  |  NO  |
 | \#010 | **[v0.1.7](#0.1.7)** | 2021-12-01 | 61  | YES  |
 | \#009 | **[v0.1.6](#0.1.6)** | 2021-11-30 | 25  | YES  |
 | \#008 | **[v0.1.5](#0.1.5)** | 2021-11-29 |  6  |  NO  |
@@ -30,6 +31,8 @@
 
 <br>
 
+###### &bull; **`+` = Plus Sign –** _"A plus sign in qty means atleast, but possibly more."_
+
 ###### &bull; **`#ID` = Change Identifier –** _"A Unique identifier thats assigned to each change."_
 
 ###### &bull; **`QTY` = Number of Changes –** _"Tracks number of changes that were logged for the given version."_
@@ -37,8 +40,55 @@
 ###### &bull; **`NOTE` = Number of Changes –** _"Additional note added to the log."_
 
 <br>
+
 <br>
+
+---
+
+## <a id="0.1.8"></a> **0.1.8** (2021-12-03)
+
+### FIXED
+1. **FIXED** Version Release **`v0.1.8`**
+
+### REMOVED
+1. **REMOVED** **_`res/docs`_** directory & all files contained within it.
+
+### ADDED
+1. **ADDED** Markdown Image & Exqample to **_`README.md`_**
+
+
+#### NOTE:
+
+First off, VERSIONING will change with this project. In the past I have always sought to use the system **"0.X.Y"** where **X** is the major versions, and **Y** represents the minor versions that are of the major. So in other words 0.2.5 would be the 5th minor release of the 2nd Version, or more accuratly (but also more confusing), you should say, `0.2.5` is the 5th minor version of the 2nd version. And the version would simply be `0.2.5`, however; though enticing to using on simple projects, the system is no good, and all three numbers should be in use.
+
+I screwed up the last release, and because the released version was `0.1.8`, V.S. Code will not let me create a `0.1.8.1`, however; had I released the version as 1.8.0, I easily could have released 1.8.1. So starting now, versioning will switch to that system.
+
+Further more this version contains content that was suppose to be included in the last release but was not, and it removes some things that were released, but were mistakes, and at this point can be considered bug removals.
+
+The details on this whole mistake are kind of shady, if this were a major project, and used by at least one large company, or another project of decent size, I would put in the grueling work of describing exactly what happened, how it happened, what exactly happened to what (down to an itemized list) ect... But, this is a small theme I am maintaining on the side, and I don't think anyone cares, nor is it likely that anyone will ever read this but me.
+
+**IMPORTANT:** This version officially replaces `0.1.8`, though I cannot, nor do I want, to remove `0.1.8` from history, However, this release will take on the version number that is the equivalent to `0.1.8` but in the correct format, which is `1.8.0`. This also contains content that was said to be included in `0.1.8` but wasn't.
+
+---
+
 <br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 <br>
 
 ---
