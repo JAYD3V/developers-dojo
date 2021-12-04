@@ -2,6 +2,37 @@
 
 <br>
 
+## **_UNPUBLISHED:_**
+
+### CHANGED
+
+1. **CHANGED** Icons to be orange #FF7400, amazingly I only dropped the color from `#FFA000` `#FF7500` and the color is totally different in this theme.
+2. **CHANGED** **_`sideBarSectionHeader.background`_** to `#001025` which is very close to the std color of the status bar.
+3. **CHANGED** CHANGED the terminal foreground colors (or ANSI colors) so that the are not so bright when they are made to be bold/emphasized
+4. **CHANGED** BracketPair Highlighting Colors to Violet, Caribbean & Capri.
+
+5. **CHANGED** _Capri Syntax Highlighting Color_ to `#0CC4F0`
+6. **CHANGED** _Orange Syntax Highlighting Color_ to `#FF4E20`
+7. **CHANGED** `constant.language`, `constant.numeric`, `constant.character.escaped` & `variable.language` to #70C640"
+8. **CHANGED** `namespace` to ##CC64FF & `"fontstyle": "bold underline"`
+9. **CHANGED**
+
+### ADDED
+
+1. **ADDED** Support for Markdown element _`meta.separator.markdown`_ (Highlighted in the theme as `"meta.separator"`). Set color @ `#D8A42D` & `"fontStyle": bold`
+2. **ADDED** Support for semantic token _`variable.local`_ set to the color `#BCBEC8`. This semantic token makes it so that custom types are that are used as a variable highlight as a variable, rather than an object. This color change helps to convey better what the programmer who wrote the program intended the program to be structured like, and how the program is supposed to be read by anyone attempting to interpret the code. The language that is of main concern here is C/CPP/Objective-C. Its likely that this property be made language specific in the future.
+3. **ADDED**
+
+<br><br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ### VERSIONS:
 
 <br>
@@ -28,9 +59,43 @@
 ###### &bull; **`NOTE` = Number of Changes –** _"Additional note added to the log."_
 
 <br>
+<br>
+<br>
+<br>
+
+---
+
+## <a id="0.1.7"></a> **0.1.7** (2021-12-01)
+
+---
+
+### **FIXED**
+
+1. Fixed some spelling & grammar mistakes in README.md, although many more mistakes exist.
 
 <br>
 
+### **_NOTES:_**
+
+-   ##### _"This was a much bigger change than it appears to be. It was hard to log all the individual changes, as many **TEXT-MATE** `tokenColor` properties were changed, as the result of color refactoring a color to change specific targeted properties. The theme looks very good though."_
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 <br>
 
 <br>
@@ -44,6 +109,8 @@
 ## <a id="0.1.7"></a> **0.1.7** (2021-12-01)
 
 ---
+
+### **CHANGED**
 
 1. **CHANGED** the color of `activityBar.activeBorder` to `#14EC90`.
 2. **CHANGED** the color of `activityBarBadge.foreground` to `#14EC90`.
@@ -108,7 +175,7 @@
 
 <br>
 
-**FIXED**
+### **FIXED**
 
 1. Fixed some spelling & grammar mistakes in README.md, although many more mistakes exist.
 
@@ -117,6 +184,14 @@
 ### **_NOTES:_**
 
 -   ##### _"This change was about unifying the caribbean/blue-green colors into a single color."_
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <br>
 
@@ -172,9 +247,17 @@
 
 <br>
 
-### **_NOTES:_**
+#### **_NOTES:_**
 
 -   ##### _"This change was made to better harmonize the colors that are seen reoccurring through out the theme. The two colors of focus were #0A2855 & #FFB000, which are new colors that if you read up top, many colors were changed to, though the old colors were both in the same ball park (they were dark blue & yellow before). The colors were slightly changed because they create better color harmonies."_
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <br>
 
@@ -211,6 +294,14 @@
 
 1. **FIXED** CARIBBEAN BLUE/GREEN COLOR SO THAT IT DISPLAYS BETTER. it was `#2CC4A4` but now it is, `#27C7A2` so that it contrast better when placed next to capri colored functions.
 2. **FIXED** the incorrect coloring of classes, namespaces, _'special lexically-scoped object name'_ **_`THIS`_** (or **_`this`_**). It was set to `#2CC0C0`, but it was suppose to be the CARIBBEAN values in the documentation.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <br>
 
@@ -269,6 +360,14 @@
 
 <br>
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 ---
 
 ## <a id="0.1.3"></a> **0.1.3** (2021-11-28)
@@ -285,10 +384,22 @@
 1. **CHANGED** the image header in `README.md` so that the information it contains is now correct
 
 <br>
-<br>
+
 <br>
 
----
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+## <br>
 
 ## <a id="0.1.2"></a> **0.1.2** (2021-11-28)
 
@@ -306,6 +417,14 @@
 1. **CHANGED** the background color of the editor's panels, inactive-tabs, and the activitybar. The color is similar, a little less blue, it appears more black, and is lighter than the previous color, which also appeared to be almost black, but defiantly had more of a blue tone and was darker.
 2. **CHANGED** the color of the `panelTitle.inactiveForeground` from a pastel dark green to a semi-visible grey
 3. **CHANGED** the color of the `panelTitle.activeForeground` from a very saturated green, to a saturated white
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <br>
 
@@ -338,6 +457,14 @@
 
 <br>
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 ---
 
 ## <a id="0.1.0"></a> **0.1.0** (2021-11-27)
@@ -357,7 +484,21 @@
 2. **FIXED** Snippet/Emmet highlighting bg-clr. Before the change, any text auto-inserted by a snippet &/or emmet was not visible as the highlighting-bg was the same color as the text.
 
 <br>
+
 <br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 <br>
 
 ---
@@ -377,7 +518,21 @@
 -   Corrected _`package.json`_
 
 <br>
+
 <br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 <br>
 
 ---
