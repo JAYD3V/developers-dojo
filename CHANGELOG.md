@@ -2,35 +2,12 @@
 
 <br>
 
-## **_UNPUBLISHED:_**
-
-### CHANGED
-
-1. **CHANGED** Icons to be orange #FF7400, amazingly I only dropped the color from `#FFA000` `#FF7500` and the color is totally different in this theme.
-2. **CHANGED** **_`sideBarSectionHeader.background`_** to `#001025` which is very close to the std color of the status bar.
-3. **CHANGED** CHANGED the terminal foreground colors (or ANSI colors) so that the are not so bright when they are made to be bold/emphasized
-4. **CHANGED** BracketPair Highlighting Colors to Violet, Caribbean & Capri.
-
-5. **CHANGED** _Capri Syntax Highlighting Color_ to `#0CC4F0`
-6. **CHANGED** _Orange Syntax Highlighting Color_ to `#FF4E20`
-7. **CHANGED** `constant.language`, `constant.numeric`, `constant.character.escaped` & `variable.language` to #70C640"
-8. **CHANGED** `namespace` to ##CC64FF & `"fontstyle": "bold underline"`
-9. **CHANGED**
-
-### ADDED
-
-1. **ADDED** Support for Markdown element _`meta.separator.markdown`_ (Highlighted in the theme as `"meta.separator"`). Set color @ `#D8A42D` & `"fontStyle": bold`
-2. **ADDED** Support for semantic token _`variable.local`_ set to the color `#BCBEC8`. This semantic token makes it so that custom types are that are used as a variable highlight as a variable, rather than an object. This color change helps to convey better what the programmer who wrote the program intended the program to be structured like, and how the program is supposed to be read by anyone attempting to interpret the code. The language that is of main concern here is C/CPP/Objective-C. Its likely that this property be made language specific in the future.
-3. **ADDED**
-
-<br><br>
-
----
+<br>
 
 <br>
+
 <br>
-<br>
-<br>
+
 <br>
 
 ### VERSIONS:
@@ -39,6 +16,7 @@
 
 |  \#ID | VER                  | DATE       | QTY | NOTE |
 | ----: | :------------------- | ---------- | :-: | :--: |
+| \#011 | **[v0.1.8](#0.1.8)** | 2021-12-01 | 10  |  NO  |
 | \#010 | **[v0.1.7](#0.1.7)** | 2021-12-01 | 61  | YES  |
 | \#009 | **[v0.1.6](#0.1.6)** | 2021-11-30 | 25  | YES  |
 | \#008 | **[v0.1.5](#0.1.5)** | 2021-11-29 |  6  |  NO  |
@@ -65,31 +43,26 @@
 
 ---
 
-## <a id="0.1.7"></a> **0.1.7** (2021-12-01)
+## <a id="0.1.8"></a> **0.1.8** (2021-12-03)
 
 ---
 
-### **FIXED**
+### CHANGED
 
-1. Fixed some spelling & grammar mistakes in README.md, although many more mistakes exist.
+1. **CHANGED** Icons to be orange #FF7400, amazingly I only dropped the color from `#FFA000` `#FF7500` and the color is totally different in this theme.
+2. **CHANGED** **_`sideBarSectionHeader.background`_** to `#001025` which is very close to the std color of the status bar.
+3. **CHANGED** CHANGED the terminal foreground colors (or ANSI colors) so that the are not so bright when they are made to be bold/emphasized
+4. **CHANGED** BracketPair Highlighting Colors to Violet, Caribbean & Capri.
 
-<br>
+5. **CHANGED** _Capri Syntax Highlighting Color_ to `#0CC4F0`
+6. **CHANGED** _Orange Syntax Highlighting Color_ to `#FF4E20`
+7. **CHANGED** `constant.language`, `constant.numeric`, `constant.character.escaped` & `variable.language` to #70C640"
+8. **CHANGED** `namespace` to ##CC64FF & `"fontstyle": "bold underline"`
 
-### **_NOTES:_**
+### ADDED
 
--   ##### _"This was a much bigger change than it appears to be. It was hard to log all the individual changes, as many **TEXT-MATE** `tokenColor` properties were changed, as the result of color refactoring a color to change specific targeted properties. The theme looks very good though."_
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
+1. **ADDED** Support for Markdown element _`meta.separator.markdown`_ (Highlighted in the theme as `"meta.separator"`). Set color @ `#D8A42D` & `"fontStyle": bold`
+2. **ADDED** Support for semantic token _`variable.local`_ set to the color `#BCBEC8`. This semantic token makes it so that custom types are that are used as a variable highlight as a variable, rather than an object. This color change helps to convey better what the programmer who wrote the program intended the program to be structured like, and how the program is supposed to be read by anyone attempting to interpret the code. The language that is of main concern here is C/CPP/Objective-C. Its likely that this property be made language specific in the future.
 
 <br>
 
