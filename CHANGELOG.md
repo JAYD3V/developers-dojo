@@ -31,7 +31,7 @@
 
 <br>
 
-###### &bull; **`+` = Plus Sign –** _"A plus sign in qty means atleast, but possibly more."_
+###### &bull; **`+` = Plus Sign –** _"A plus sign in qty means at-least, but possibly more."_
 
 ###### &bull; **`#ID` = Change Identifier –** _"A Unique identifier thats assigned to each change."_
 
@@ -54,12 +54,12 @@
 1. **REMOVED** **_`res/docs`_** directory & all files contained within it.
 
 ### ADDED
-1. **ADDED** Markdown Image & Exqample to **_`README.md`_**
+1. **ADDED** Markdown Image & Example to **_`README.md`_**
 
 
 #### NOTE:
 
-First off, VERSIONING will change with this project. In the past I have always sought to use the system **"0.X.Y"** where **X** is the major versions, and **Y** represents the minor versions that are of the major. So in other words 0.2.5 would be the 5th minor release of the 2nd Version, or more accuratly (but also more confusing), you should say, `0.2.5` is the 5th minor version of the 2nd version. And the version would simply be `0.2.5`, however; though enticing to using on simple projects, the system is no good, and all three numbers should be in use.
+First off, VERSIONING will change with this project. In the past I have always sought to use the system **"0.X.Y"** where **X** is the major versions, and **Y** represents the minor versions that are of the major. So in other words 0.2.5 would be the 5th minor release of the 2nd Version, or more accurately (but also more confusing), you should say, `0.2.5` is the 5th minor version of the 2nd version. And the version would simply be `0.2.5`, however; though enticing to using on simple projects, the system is no good, and all three numbers should be in use.
 
 I screwed up the last release, and because the released version was `0.1.8`, V.S. Code will not let me create a `0.1.8.1`, however; had I released the version as 1.8.0, I easily could have released 1.8.1. So starting now, versioning will switch to that system.
 
