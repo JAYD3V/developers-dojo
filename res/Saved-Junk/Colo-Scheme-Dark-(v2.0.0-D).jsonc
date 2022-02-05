@@ -1,0 +1,123 @@
+/*
+"foreground"
+    - editorWidget
+    - hoverWidget,
+    - sidebar,
+    - quickInput
+    - settings
+    - + "some things in panels"
+
+
+ */
+{
+  "STATIC_BG_AND_FG_COLORS": {
+    "BACKGROUNDS": {
+      "editor-bg": "#0E1729",
+      "bg-primary": "#0F2850",
+      "bg-secondary": "#021232",
+      "accent-primary": ["001122", "#003366", "#004484", "#005AAA", "#0088FF"],
+      "accent-secondary": "#007810"
+    },
+
+    "FOREGROUNDS": {
+      "workbench-fg": "#DDDDDD",
+      "text-fg": "#C4C4C4",
+      "bold-label-fg": "#66AADD",
+      "emphasized": "#11DDFF",
+      "dark-theme": "#021224" // indentGuide (inactive)
+    },
+
+    "BORDERS": {
+      "dark": "#021224",
+      "2| Adjustable-Vertical-Borders": "#44FF2233",
+      "2| contrast": ["#070200", "#070200CC" /*"#07020088"NotBeingUsed*/],
+      "3| black": ["#000000", "#000000CC", "#00000088", "#00000055"]
+    }
+  },
+
+  "": {
+    "ignored, unfocused-inactive": "#66AADDAA",
+    "inactive": "#66AADDB0",
+
+    "HIGHLIGHT-EMPHASIS": {
+      "emphasized-background": "#044C7C",
+      "deemphasized-fg": "#4080cc",
+      "deemphasized-bg": ""
+    },
+
+    "HIGHLIGHTING": {
+      "NEUTRAL": {
+        "active": "#FFFFFF",
+        "unfocused": "#FFFFFFAA",
+        "inactive": "#FFFFFF77"
+      },
+
+      "PRIMARY-ACCENT-HIGHLIGHT-PALETTE": {
+        "Name": "Azure Highlights",
+        "type": "Cyan",
+        "CORE_ARRAY": ["#11DDFF", "#11DDFF88", "#11DDFF66", "#11DDFF44"]
+      },
+
+      "SECONDARY-ACCENT-HIGHLIGHT-PALETTE": {
+        "Name": "Lime Highlights",
+        "Core Color": "Green",
+        "highlight-Array": [
+          "#44FF22",
+          "#44FF22EE",
+          "#44FF22CC",
+          "#44FF22AA",
+          "#44FF2288",
+          "#44FF2266",
+          "#44FF2244",
+          "#44FF2222"
+        ]
+      }
+    }
+  },
+  /*
+
+
+
+
+
+
+______________________________________________________________________________
+                            STATUS HIGHLIGHTING
+______________________________________________________________________________
+ */
+  "STATUS": {
+    "error": ["#FF2222", "#FF2222CC", "#FF222299", "#FF222233"],
+
+    "warning": ["#EEDD22", "#EEDD22AA", "#EEDD2266", "#EEDD2233"],
+
+    "info": ["#66EE22", "#66EE2299", "#66EE2233"],
+
+    "OTHER_STATUSES": {
+      "failed-stop-breakpoint": "#FF1100",
+      "pass-start-continue": "#00EE11",
+      "pause-restart": "#BBFF11",
+      "debugging": "#A848FF",
+      "ALL-OTHER-STATUSES": "#11EEFF"
+    }
+  },
+  /*
+
+
+
+
+
+
+______________________________________________________________________________
+                               SYNTAX HIGHLIGHTING
+______________________________________________________________________________*/
+  "SYNTAX_HIGHLIGHTING": {
+    "SYNTAX_Highlighting": {
+      "cyan": "#2CC4AC",
+      "blue": "#00B4FF",
+      "pastel-blue": "#96BFF8",
+      "purple": "#D878FF",
+      "ORANGE (predefined-constants)": "#FF9040",
+      "GREEN (numbers)": "#44CC11"
+    }
+  }
+}

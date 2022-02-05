@@ -1,0 +1,94 @@
+{
+  /*
+*--------------------------------------------------------------*
+  STATIC STYLING
+*==============================================================*/
+  "SPECIAL": {
+    "contrast": "#080200",
+    "shadow": "#0E0500F0"
+  },
+
+  "BACKGROUNDS_PALETTE": {
+    "editor-bg": "#131929",
+    "sidebar-bg": "#0C2C54",
+    "statusbar-bg": "#003252",
+    "activitybar-bg": "#021630",
+    "themes-primary-array": ["#011127", "#002244"]
+  },
+
+  "FOREGROUNDS_PALETTE": {
+    "default-fg": "#CCCCCC",
+    "default-editor-fg": "#BBBBBB",
+    "labels-and-headers": "#66AADD"
+  },
+  /*
+
+
+*--------------------------------------------------------------*
+ HIGHLIGHTING
+*==============================================================*/
+  "HIGHLIGHT_COLORS_PALETTE": {
+    "PRIMARY_HIGHLIGHTS": {
+      "NEUTRAL": {
+        "active": "#FFFFFF",
+        "unfocused": "#FFFFFFAA",
+        "inactive": "#FFFFFF77"
+      },
+
+      "primary-emphasized-highlight-array": [
+        "#004488",
+        "#0055AA",
+        "#0088FF",
+        "#0088FF99"
+      ],
+      "primary-highlight-array": [
+        "#11DDFF",
+        "#11DDFFAA",
+        "#11DDFF88",
+        "#11DDFF66",
+        "#11DDFF44"
+      ]
+    },
+
+    "SECONDARY_HIGHLIGHTS": {
+      "secondary-emphasized-highlight-array": ["#055E00", "#0A7402"],
+      "secondary-dynamic-highlight-array": [
+        "#44FF22",
+        "#44FF22EE",
+        "#44FF22CC",
+        "#44FF22AA",
+        "#44FF2288",
+        "#44FF2266",
+        "#44FF2244",
+        "#44FF2222"
+      ]
+    }
+  },
+  /*
+
+
+
+
+*--------------------------------------------------------------*
+STATUS STYLING/HIGHLIGHTING
+*==============================================================*/
+  "ERROR/PROBLEM": ["#FF2222", "#FF2222CC", "#FF222299", "#FF222233"],
+  "WARNING/NOTIFICATION": ["#EEDD22", "#EEDD22AA", "#EEDD2266", "#EEDD2233"],
+  "INFO/HINT": ["#77EE55", "#77EE5599", "#77EE5533"],
+  /*
+
+
+*--------------------------------------------------------------*
+GIT/SCM STYLING/HIGHLIGHTING
+*==============================================================*/
+  // * Modified, Added, & Deleted Code
+  "ADDED/MODIFIED: (Unstaged)": "#FFBB44",
+  "ADDED/MODIFIED: (Uncommitted)": "#44EE77",
+  "DELETED": "#FF1199",
+  "IGNORED": "#77CCFF77",
+
+  // * Merging Code-bases
+  "MERGE (incoming)": "#18C4B4",
+  "MERGE (current)": "#DD55CC",
+  "COMMENT-RANGE": "" // TODO: Research these properties
+}
