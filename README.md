@@ -1,78 +1,116 @@
-## **SUGGESTED CONFIGURATIONS**
+# **SUGGESTED CONFIGURATIONS**
 
 <br>
 
-_Visual Studio Code_ includes a wide array of really awesome features, some p therefore, its important that we are aware of them, and that we configure them in a way that they are useful to us. To provide users who have **_Developer's Dojo_** equipped as their color theme with the best experience possible, I've included a version of **_Dev-dojo_** that comes with a special feature highlighting. The features are documented below as a list of **Features Suggestions**. The list only contains 5 suggestions, but each suggestion includes a suggested configuration for a setting that customizes a feature, which I have added unique highlighting for. Color themes  list itself is short, each suggestion is rather detailed, and each one includes a suggested setting configured a certain way, as well as custom highlighting configured for the feature that is being suggested. I hope you check them out, and please email me with any feed back you might have. I have spent much time custom styling the listed features, as well as documenting them, so I think most will find them very helpful.
+## _PRO vrs STD_
 
-<br>
+**PRO** = _professional_ & **STD** = _standard_
 
-<br>
+The difference between pro, and std, has to do with customizations I made to specific features in the pro version. Honestly, I named it pro because it sounded cool. There is not a better theme between the two versions, **STD** & **PRO**, its up to each individual to decide which is a better fit for him/her. To help users make the decision, Ill briefly explain what pro is.
 
-<br>
+## _**PRO**_
 
-<br>
+_I have found that the best way to describe what PRO offers, that STD doesn't, is by informing the users (you), that PRO helps developers further configure and customize VSCode. Pro helps its user obtain a truly unique experience, where STD is for those you don't want to spend more time configuring more stuff._
 
+IMO, projects require way to much configuration. I view myself as a developer who works during a time, when over-configuration is a major problem that needs a solution. The problem isn't the ability to customize projects, Dev Envs, Desktops, Compilers, Debuggers, tasks, Shell, OS, etc... etc... etc... the problem is that it takes way too long to configure all of those things. Which is why I offer, both a pro version, and std version.
+
+**To continue with the STD version, just equip it.**
+
+**To continue with the PRO version, continue reading... ... ...**
 
 ---
-### Suggestion 1: &nbsp; Whitespace Rendering
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+## **PRO Continued...**
+
+---
+
+_Visual Studio Code_ includes a wide array of really awesome features, and several of the features can be styled by the colorToken properties used to create a theme. I have included a few suggestions below. I don't feel that these are neccessary be any means. Their purpose is to inform users who equip developer's dojo, of the enhancements I made to the pro version of the theme.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+### **Suggestion 1: &nbsp; Whitespace Rendering**
+
 ---
 
 **Feature:** &nbsp;&nbsp; Whitespace Rendering
 **Setting:** &nbsp;&nbsp;  **_`editor.renderWhitespace`_**
 **Suggested Value:** **_`"trailing"`_**
-**Description:** _By default, editor.renderWhitespace is configured to display leading whitespace whenever text with leading whitespace is selected._
+
+---
+
+By default, editor.renderWhitespace is configured to display leading whitespace whenever text with leading whitespace is selected. Trailing Whitespace is bad, leading whitespace is necessary. As developers, we want our code indented, which requires leading tabs, or spaces, however; whitespace, as far as I know, is always a bad thing when it is trailing at the end of lines of code. Consequently, I suggest that you reconfigure VS Code to render trailing whitespace instead. I highlighted the whitespace in such a way that it renders a faint transparent red, which couples the configuration. The faint red is non-intrusive to the rest of the editors aesthetics, while still being visible enough to see when your looking specifically for them. The red color suggests that the dots are a problem that should be removed.
+
 
 <br>
 
-### Suggestion
 
-
-Trailing Whitespace is bad, leading whitespace is necessary. As developers, we want our code indented, which requires leading tabs, or spaces, however; whitespace, as far as I know, is always a bad thing when it is trailing at the end of lines of code. Consequently, I suggest that you reconfigure VS Code to render trailing whitespace instead. I highlighted the whitespace in such a way that it renders a faint transparent red, which couples the configuration. The faint red is non-intrusive to the rest of the editors aesthetics, while still being visible enough to see when your looking specifically for them. The red color suggests that the dots are a problem that should be removed.
-
-
-###### _Reconfigure this feature by adding the settings shown in the snippet below to the editor's settings.json file. The settings are set to their recommended values, but try playing around with the settings, see if you can find a custom configuration that you personally like._
+##### _**Reconfigure this feature by adding the settings shown in the snippet below to the editor's settings.json file.**_
 
 
 ```JSON
-/// @file settings.json
-
 {
-    "editor.renderWhitespace": "trailing", // sets which whitespace to render
+    "editor.renderWhitespace": "trailing",
     "workbench.colorCustomizations": {
-        "editorWhitespace.foreground": "#90090990" // Changes the color
+        "editorWhitespace.foreground": "#90090990" // Dots Color
     }
 }
 ```
 
 
-###### Other values to try
-- _"selection" (default)_
-- _"trailing" (suggested)_
-- _"boundary"_
-- _"all"_
-- _"none"_
+##### **_"trailing" is the suggested value, but the features can be customized by using any of the following:_**
+
+- ##### **trailing** _(suggested)_
+- ##### **selection** _(default)_
+- ##### **boundary**
+- ##### **none**
+- ##### **all**
 
 
 
 
-<br>
 
-
-
-
-<br>
 
 
 
 
 <br>
 
+<br>
+
+<br>
+
+---
+## **Suggestion 02: &nbsp; Multiple Rulers**
 
 
-
----------------------------------------------
-### **Suggestion 02: &nbsp; Multiple Rulers**
----------------------------------------------
+<br>
 
 **Feature:** &nbsp;&nbsp; Editor Line-length Rulers
 **Setting:** &nbsp;&nbsp;  **_`editor.rulers`_**

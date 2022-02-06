@@ -1,0 +1,54 @@
+###########################################################################
+#######      #   #   #   #   #   #   #   #   #   #   #   #   #    #########
+#####     #                                                     #    ######
+####   #     IGNORE TEMPLATE for V.S. CODE EXTENSIONS & THEMES     #   ####
+######    #                                                     #    ######
+########     #   #   #   #   #   #   #   #   #   #   #   #   #   ##########
+###########################################################################
+
+# PROJECT
+node_modules/**
+build/**
+typeings/**
+test/**
+*.test.*
+*.spec.*
+package.json
+.npmignore
+.npmrc
+
+# TYPESCRIPT | JAVASCRIPT
+out/**
+.d.ts
+*.d.ts
+*.js
+*.cjs
+*.mjs
+
+# If using a different local tsconfig
+src/tsconfig.json
+
+# DEVELOPMENT ENVIRONMENT
+.vscode/**
+.prettierrc
+.eslintrc.json
+.eslintignore
+.vscodeignore
+
+# CACHE / TEMPORARY
+.Cache/**
+.eslintcache/**
+.tmp/**
+.npm/**
+
+# LOGGING
+npm-debug.log*
+.Log/**
+*.log*
+*.txt.log*
+*.txt*
+
+# MISC
+# ${UID-WORKSPACE}/** ("This should be replaced with a local repository that a dev might hold files that are useful during development.")
+.trashbin
+.trashcan
