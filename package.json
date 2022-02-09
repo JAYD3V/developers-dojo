@@ -1,81 +1,86 @@
 {
-	"name": "developers-dojo",
-	"displayName": "Developer's Dojo",
-	"description": "",
-	"version": "1.8.0",
-	"publisher": "JAYD3V",
-	"license": "MIT",
-	"icon": "res/icon.png",
-	"galleryBanner": {
-		"color": "#15336C",
-		"theme": "dark"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/W3Dojo/developers-dojo.git"
-	},
-	"bugs": {
-		"email": "W3Dojo@Gmail.com",
-		"url": "https://github.com/W3Dojo/developers-dojo/issues"
-	},
-	"engines": {
-		"vscode": "^1.62.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"Theme",
-		"Dark",
-		"Dark Theme",
-		"Dojo",
-		"Developer",
-		"Dev",
-		"Beautiful",
-		"Clean",
-		"Professional",
-		"Nice",
-		"Blue",
-		"Green",
-		"Orange",
-		"Purple",
-		"lavender",
-		"Violet",
-		"Cyan",
-		"Azure",
-		"Capri",
-		"Pacific",
-		"Spring Green",
-		"Black",
-		"Dark Blue",
-		"Good",
-		"Perfect",
-		"C++",
-		"MakeFile",
-		"CMake",
-		"JavaScript",
-		"JS",
-		"Node.js",
-		"TypeScript",
-		"JSON",
-		"YAML",
-		"MD",
-		"HTML",
-		"CSS"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Developer's Dojo",
-				"uiTheme": "vs-dark",
-				"path": "./themes/developers-dojo-vscode-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "95944170-f1dc-4bdb-bb5a-4a4d265060a3",
-		"publisherDisplayName": "Andrew Jay Chambers",
-		"publisherId": "00a7bc28-8ab6-4c68-a1d5-53368ad33f76",
-		"isPreReleaseVersion": false
-	}
+  "name": "developers-dojo",
+  "displayName": "Developer's Dojo",
+  "description": "",
+  "version": "1.8.0",
+  "publisher": "JAYD3V",
+  "license": "MIT",
+  "icon": "res/icon.png",
+  "galleryBanner": {
+    "color": "#15336C",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/W3Dojo/developers-dojo.git"
+  },
+  "bugs": {
+    "email": "W3Dojo@Gmail.com",
+    "url": "https://github.com/W3Dojo/developers-dojo/issues"
+  },
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark",
+    "Dark Theme",
+    "Dojo",
+    "Developer",
+    "Dev",
+    "Beautiful",
+    "Clean",
+    "Professional",
+    "Nice",
+    "Blue",
+    "Green",
+    "Orange",
+    "Purple",
+    "lavender",
+    "Violet",
+    "Cyan",
+    "Azure",
+    "Capri",
+    "Pacific",
+    "Spring Green",
+    "Black",
+    "Dark Blue",
+    "Good",
+    "Perfect",
+    "C++",
+    "MakeFile",
+    "CMake",
+    "JavaScript",
+    "JS",
+    "Node.js",
+    "TypeScript",
+    "JSON",
+    "YAML",
+    "MD",
+    "HTML",
+    "CSS"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dev Dojo: TS Ninja Ed. (TS Blue/Black)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dev-dojo-ts-ninja-vscode-theme.json"
+      },
+      {
+        "label": "Dev Dojo: Pro Ed. (Dark/Charcoal)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dev-dojo-pro-vscode-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "95944170-f1dc-4bdb-bb5a-4a4d265060a3",
+    "publisherDisplayName": "Andrew Jay Chambers",
+    "publisherId": "00a7bc28-8ab6-4c68-a1d5-53368ad33f76",
+    "isPreReleaseVersion": false
+  }
 }

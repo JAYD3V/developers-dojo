@@ -1,0 +1,147 @@
+/*
+"foreground"
+    - editorWidget
+    - hoverWidget,
+    - sidebar,
+    - quickInput
+    - settings
+    - + "some things in panels"
+
+
+ */
+{
+  "Contrasting Neutral Colors": {},
+
+  "PRIMARY_SCHEME_HUE": {
+    "name": "Charcoal",
+    "hue": "#0A101A",
+    "PALLETTE": {
+      "transparent-highlighting": [
+        "#0A101A",
+        "#0A101ACC",
+        "#0A101AAA",
+        "#0A101A88",
+        "#0A101A66",
+        "#0A101A44"
+      ]
+    }
+  },
+
+  "SECONDARY_PALETTE": {
+    "name": "Blue",
+    "hue": "#1177FF",
+    "PALLETTE": {
+      "transparent-highlighting": [
+        "#1177FF",
+        "#1177FFCC",
+        "#1177FFAA",
+        "#1177FF88",
+        "#1177FF66",
+        "#1177FF44"
+      ]
+    }
+  },
+
+  "ACCENTING_PALETTE": {
+    "name": "Blue",
+    "hue": "#332211",
+    "PALLETTE": {
+      "transparent-highlighting": [
+        "#332211",
+        "#332211CC",
+        "#332211AA",
+        "#33221188",
+        "#33221166",
+        "#33221144"
+      ]
+    }
+  },
+
+  /*
+
+
+
+
+
+
+
+
+
+
+
+*--------------------------------------------------------------*
+  STATUS HIGHLIGHTING COLORS
+*==============================================================*/
+
+  "STATUS_HIGHLIGHT_COLORS_PALETTE": {
+    "error": ["#FF2D20", "#FF2D20CC", "#FF2D2099", "#FF2D2033"],
+    "warning": ["#FFFF11", "#FFFF11AA", "#FFFF1166", "#FFFF1133"],
+    "info": ["#14EE50", "#14EE5099", "#14EE5033"],
+    "OTHER_STATUSES": {
+      "closed": "#EA5272",
+      "open": "#4CCC50"
+    }
+  },
+
+  "SCM_HIGHLIGHTING": {
+    "DIFF_HIGHLIGHTING": {},
+    "GIT_HIGHLIGHTING": {
+      "modified": "#FF9933",
+      "added": "#55DD44",
+      "deleted": "#FF3399",
+      "renamed": "#CC77FF",
+      "ignored": "#607890",
+      "commentRange": "#3399BB",
+      "conflict": "#FF6677",
+      "merging": {
+        "incoming": ["#18B8FF", "#18B8FF64", "#18B8FF4A"],
+        "current": ["#F880EE", "#F880EE50", "#F880EE33"]
+      }
+    }
+  },
+  /*
+
+
+
+
+
+
+______________________________________________________________________________
+                               SYNTAX HIGHLIGHTING
+______________________________________________________________________________*/
+  "SYNTAX_HIGHLIGHTING": {
+    "SYNTAX_Highlighting": {
+      "Sky Blue": "#18B8FF",
+      "Pastel Pink": "#F880EE",
+      "Purple": "#AC7CFF",
+      "Cyan": "#24C0B2",
+      "Dark Green": "#2C800F",
+      "Green": "#66BB77",
+      "BrightGreen": "#77EE33",
+      "red": "#FF2277",
+      "Orange": "#FF7755"
+    }
+  }
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+                  COLOR NAME SOURCES
+----------------------------------------------------------------
+- EBONY
+    * https://www.color-meanings.com/shades-of-black-color-names-html-hex-rgb-codes/
+- RAVEN
+    * https://www.color-meanings.com/shades-of-black-color-names-html-hex-rgb-codes/
+
+
+============================================================= */

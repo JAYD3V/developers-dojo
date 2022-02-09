@@ -51,10 +51,6 @@ _Visual Studio Code_ includes a wide array of really awesome features, and sever
 
 <br>
 
-<br>
-
-
-
 ### **Suggestion 1: &nbsp; Whitespace Rendering**
 
 ---
@@ -91,14 +87,6 @@ By default, editor.renderWhitespace is configured to display leading whitespace 
 - ##### **boundary**
 - ##### **none**
 - ##### **all**
-
-
-
-
-
-
-
-
 
 <br>
 

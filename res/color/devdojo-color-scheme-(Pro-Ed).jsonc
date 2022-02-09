@@ -1,0 +1,170 @@
+/*
+"foreground"
+    - editorWidget
+    - hoverWidget,
+    - sidebar,
+    - quickInput
+    - settings
+    - + "some things in panels"
+
+
+ */
+{
+  "Contrasting Neutral Colors": {
+    "palette-meta": {
+      "palette-name": "Primary-Blue",
+      "base-color": "#0088FF",
+      "palette-rank": "primary"
+    },
+
+    "SUB-PALETTE-WHITE": {
+      "active-fg": "#FFFFFF",
+      "interactive-form-items": "#EEEEEE",
+      "workbench-fg": "#DDDDDD",
+      "text-fg": "#C4C4C4",
+      "transparent-selection-highlighting": {
+        "INACTIVE": "#FFFFFF22",
+        "light-contrast-border": "#FFFFFF33"
+      }
+    },
+
+    "SHADING_AND_CONTRASTING_PALETTE": [
+      ["#000000", "#000000CC", "#00000088", "#00000044"],
+      ["#0E0000", "#0E0000EE", "#0E0000E0"]
+    ]
+  },
+
+  "PRIMARY_PALETTE": {
+    "palette-meta": {
+      "palette-name": "BLUE",
+      "palette-rank": "PRIMARY"
+    },
+
+    "PALETTE": {
+      "borders (very dark)": "#000818",
+      "dark-border (dark)": "#011124",
+      "widgetsAndBars": ["#0D1325", "#121A2A", "#181C28", "#222838"],
+      // Common Backgrounds
+      "editor-bg": "#0C1A34", // clrs titleBar-bg
+      "sidebar-bg": "#072752",
+      "input-bg": ["#001864", "#001864E8"],
+      "statusbar-bg": "#004E8E",
+      "bold-foreground": ["#55BBEE", "#55BBEE55"],
+      "focus-border": ["#0088FF", "#0088FFCC", "#0088FFAA"],
+      "selection-background": [
+        "#0088FF88",
+        "#0088FF77",
+        "#0088FF66",
+        "#0088FF55"
+      ]
+    }
+  },
+
+  "SECONDARY_PALETTE": {
+    "palette-meta": {
+      "name": "Green",
+      "palette-rank": "Secondary"
+    },
+
+    "PALETTE": {
+      "input-foreground": "#8EF62E",
+      "icon-active/Focus-fg": "#AAFF33",
+      "fg-highlight": ["#99EE22", "#99EE22CC", "#99EE22AA", "#99EE2255"],
+      "fg-highlight-soft": "#66DD33",
+      "static-emphasized-bg": "#077703",
+      "hover-selection": "#50FF0044"
+    }
+  },
+
+  "ACCENTING_PALETTE": {
+    "palette-meta": {
+      "palette-name": "Cyan",
+      "base-color": "#0EE0FF",
+      "palette-rank": "accent"
+    },
+
+    "PALETTE": {
+      "CYAN_HIGHLIGHT": [
+        "#0EE0FF",
+        "#0EE0FFCC",
+        "#0EE0FF88",
+        "#0EE0FF66",
+        "#0EE0FF44"
+      ],
+
+      "NEON_PINK_HIGHLIGHT": ["#FF32B4", "#FF32B4CC"]
+    }
+  },
+
+  "STATUS_HIGHLIGHT_COLORS_PALETTE": {
+    "error": ["#FF2D20", "#FF2D20CC", "#FF2D2099", "#FF2D2033"],
+    "warning": ["#FFFF11", "#FFFF11AA", "#FFFF1166", "#FFFF1133"],
+    "info": ["#14EE50", "#14EE5099", "#14EE5033"],
+    "OTHER_STATUSES": {
+      "closed": "#EA5272",
+      "open": "#4CCC50"
+    }
+  },
+
+  "SCM_HIGHLIGHTING": {
+    "DIFF_HIGHLIGHTING": {},
+    "GIT_HIGHLIGHTING": {
+      "modified": "#FF9933",
+      "added": "#55DD44",
+      "deleted": "#FF3399",
+      "renamed": "#CC77FF",
+      "ignored": "#607890",
+      "commentRange": "#3399BB",
+      "conflict": "#FF6677",
+      "merging": {
+        "incoming": ["#18B8FF", "#18B8FF64", "#18B8FF4A"],
+        "current": ["#F880EE", "#F880EE50", "#F880EE33"]
+      }
+    }
+  },
+  /*
+
+
+
+
+
+
+______________________________________________________________________________
+                               SYNTAX HIGHLIGHTING
+______________________________________________________________________________*/
+  "SYNTAX_HIGHLIGHTING": {
+    "SYNTAX_Highlighting": {
+      "Sky Blue": "#18B8FF",
+      "Pastel Pink": "#F880EE",
+      "Purple": "#AC7CFF",
+      "Cyan": "#24C0B2",
+      "Dark Green": "#2C800F",
+      "Green": "#66BB77",
+      "BrightGreen": "#77EE33",
+      "red": "#FF2277",
+      "Orange": "#FF7755"
+    }
+  }
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+                  COLOR NAME SOURCES
+----------------------------------------------------------------
+- EBONY
+    * https://www.color-meanings.com/shades-of-black-color-names-html-hex-rgb-codes/
+- RAVEN
+    * https://www.color-meanings.com/shades-of-black-color-names-html-hex-rgb-codes/
+
+
+============================================================= */
