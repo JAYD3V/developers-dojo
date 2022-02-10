@@ -109,7 +109,7 @@
     "DIFF_HIGHLIGHTING": {},
     "GIT_HIGHLIGHTING": {
       "modified": "#FF9933",
-      "added": "#55DD44",
+      "added": "#4EE55E",
       "deleted": "#FF3399",
       "renamed": "#CC77FF",
       "ignored": "#607890",

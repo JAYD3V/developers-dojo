@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "rootDir": "./src",
+
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true
+  },
+
+  "exclude": [
+    ".tmp/**/*",
+    ".vscode/**/*",
+    "./out/**/*",
+    "node_modules/**/*",
+    "themes/**/*"
+  ],
+  "include": ["src/**/*"]
+}

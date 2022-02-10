@@ -82,5 +82,19 @@
     "publisherDisplayName": "Andrew Jay Chambers",
     "publisherId": "00a7bc28-8ab6-4c68-a1d5-53368ad33f76",
     "isPreReleaseVersion": false
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "@types/vscode": "^1.64.0",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "2.5.1",
+    "typescript": "^4.5.5",
+    "vscode": "^0.9.9"
   }
 }
