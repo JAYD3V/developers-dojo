@@ -66,14 +66,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dev Dojo: TS Ninja Ed. (TS Blue/Black)",
+        "label": "Developer's Dojo: TS Ninja Edition (dark)",
         "uiTheme": "vs-dark",
-        "path": "./themes/dev-dojo-ts-ninja-vscode-theme.json"
+        "path": "./developers-dojo/tsninja-vscode-theme.json"
       },
       {
-        "label": "Dev Dojo: Pro Ed. (Dark/Charcoal)",
+        "label": "Developer's Dojo: Late Night Edition (dark)",
         "uiTheme": "vs-dark",
-        "path": "./themes/dev-dojo-pro-vscode-theme.json"
+        "path": "./developers-dojo/latenight-vscode-theme.json"
+      },
+      {
+        "label": "Developer's Dojo: HC Black Edition (hc-black)",
+        "uiTheme": "vs-dark",
+        "path": "./developers-dojo/hc-black-vscode-theme.json"
+      },
+      {
+        "label": "Developer's Dojo: Pro Edition (dark)",
+        "uiTheme": "vs-dark",
+        "path": "./developers-dojo/pro-vscode-theme.json"
       }
     ]
   },

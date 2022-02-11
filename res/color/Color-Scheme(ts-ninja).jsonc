@@ -28,6 +28,7 @@
       }
     },
     "SUB-PALETTE-BLACK": {
+      "workbench-primary": "#090F23",
       "BLACK_PALETTE": ["#000000", "#000000CC", "#00000088", "#00000044"],
       "CONTRAST_PALETTE": ["#0E0000", "#0E0000EE", "#0E0000E0"] // BlackSmoke
     }
@@ -46,7 +47,7 @@
       // Common Backgrounds
       "editor-bg": "#0C1A34", // clrs titleBar-bg
       "sidebar-bg": "#072752",
-      "input-bg": ["#001864", "#001864E8"],
+      "input-bg": ["#011144", "#011144E8"],
       "statusbar-bg": "#004E8E",
       "bold-foreground": ["#55BBEE", "#55BBEE55"],
       "focus-border": ["#0088FF", "#0088FFCC", "#0088FFAA"],
@@ -66,11 +67,12 @@
     },
 
     "PALETTE": {
+      "border-dark": "#183308",
+      "border": "#284E0E",
+      "static-bg": "#177700",
       "input-foreground": "#8EF62E",
-      "icon-active/Focus-fg": "#AAFF33",
-      "fg-highlight": ["#99EE22", "#99EE22CC", "#99EE22AA", "#99EE2255"],
+      "highlight": ["#88FF44", "#88FF33", "#88FF44AA", "#88FF4455"],
       "fg-highlight-soft": "#66DD33",
-      "static-emphasized-bg": "#077703",
       "hover-selection": "#50FF0044"
     }
   },
@@ -109,7 +111,7 @@
     "DIFF_HIGHLIGHTING": {},
     "GIT_HIGHLIGHTING": {
       "modified": "#FF9933",
-      "added": "#4EE55E",
+      "added": "#4EE555",
       "deleted": "#FF3399",
       "renamed": "#CC77FF",
       "ignored": "#607890",
@@ -119,6 +121,19 @@
         "incoming": ["#18B8FF", "#18B8FF64", "#18B8FF4A"],
         "current": ["#F880EE", "#F880EE50", "#F880EE33"]
       }
+    },
+
+    "SYNTAX_HIGHLIGHTING_PALETTE": {
+      "|0| WHITE": "#C0C0C0",
+      "|1| BLUE (dark/bold)": "#0088FF",
+      "|2| BLUE (saturated)": "#0BBFFF",
+      "|3| PINK (saturated)": "#FF55CC",
+      "|4| GREEN (pastel)": "#68CFA0",
+      "|5| ": "",
+      "|6| ": "",
+      "|7| ": "",
+      "|8| ": "",
+      "|9| ": ""
     }
   },
   /*
