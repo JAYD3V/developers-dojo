@@ -69,11 +69,8 @@
     "PALETTE": {
       "border-dark": "#183308",
       "border": "#284E0E",
-      "static-bg": "#177700",
-      "input-foreground": "#8EF62E",
-      "highlight": ["#88FF44", "#88FF33", "#88FF44AA", "#88FF4455"],
-      "fg-highlight-soft": "#66DD33",
-      "hover-selection": "#50FF0044"
+      "static-bg": "#177707",
+      "highlight": ["#77FF33", "#77FF33CC", "#77FF3388", "#77FF3344"]
     }
   },
 
@@ -123,17 +120,51 @@
       }
     },
 
-    "SYNTAX_HIGHLIGHTING_PALETTE": {
-      "|0| WHITE": "#C0C0C0",
-      "|1| BLUE (dark/bold)": "#0088FF",
-      "|2| BLUE (saturated)": "#0BBFFF",
-      "|3| PINK (saturated)": "#FF55CC",
-      "|4| GREEN (pastel)": "#68CFA0",
-      "|5| ": "",
-      "|6| ": "",
-      "|7| ": "",
-      "|8| ": "",
-      "|9| ": ""
+    "SYNTAX_HIGHLIGHTING_COLOR_SCHEME": {
+      "white": {
+        "hex": "#C0C0C0",
+        "name": "",
+        "syntax": []
+      },
+
+      "PaleBlue": {
+        "hex": "#6E9ED8",
+        "syntax": []
+      },
+
+      "DarkBlue": {
+        "hex": "#0088FF",
+        "name": "",
+        "syntax": []
+      },
+
+      "BlueCyan": {
+        "hex": "#11BBFF",
+        "name": "",
+        "syntax": []
+      },
+
+      "NeonPink": {
+        "hex": "#FF66DD",
+        "name": "",
+        "syntax": []
+      },
+
+      "PastelGreen": {
+        "hex": "#68CFA0",
+        "name": "",
+        "syntax": []
+      },
+
+      "PastelYellow": {
+        "hex": "#90CC96",
+        "name": "",
+        "syntax": []
+      },
+
+      "08": { "": "" },
+      "09": { "": "" },
+      "10": { "": "" }
     }
   },
   /*
