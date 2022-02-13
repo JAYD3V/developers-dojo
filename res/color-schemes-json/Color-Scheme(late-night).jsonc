@@ -1,0 +1,32 @@
+{
+  "PALETTE": {},
+
+  "SCHEME": {
+    "static-bg-styling": {
+      "editor": "",
+      "workbench(primary)": "",
+      "workbench(secondary)": "",
+      "emphasized-bg": "",
+      "activitybar": ""
+    },
+
+    "Transparent Highlighting (Bg)": {
+      "name": "Pastel Violet",
+      "responsibilities": ["Selection-Bg", "Hover-Bg"],
+      "transparent-bg-highlighting": [
+        "#6688FF88",
+        "#6688FF77",
+        "#6688FF66",
+        "#6688FF55"
+      ]
+    },
+
+    "Focus Highlighting (Borders)": ["#6688FF", "#6688FFCC", "#6688FFAA"],
+
+    "borders": {
+      "contrast": "#000000",
+      "light": "#000000",
+      "dark": "#000000"
+    }
+  }
+}

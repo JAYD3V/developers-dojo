@@ -9,13 +9,13 @@
 *--------------------------------------------------------------*
 Special/Unique Properties  (!! IMPORTANT !!)
 *==============================================================*/
-    "editorRuler.foreground": "#6688FF10",
+    "editorRuler.foreground": "#A0AAFF0B",
     "contrastActiveBorder": "#00000000",
-    "contrastBorder": "#0E0000",
-    "icon.foreground": "#0EE0FF",
+    "contrastBorder": "#99AAFF3D",
+    "icon.foreground": "#AA55FF",
     "issues.open": "#4CCC50",
     "issues.closed": "#EA5272",
-    "issues.newIssueDecoration": "#0EE0FF",
+    "issues.newIssueDecoration": "#AA55FF",
     "editorUnnecessaryCode.border": "#303030",
     "editorUnnecessaryCode.opacity": "#000000CC",
     /*
@@ -69,7 +69,7 @@ Includes: 'buttons', 'inputs', 'textBoxes', 'CheckBoxes',
 
     // Buttons (1st)
     "button.background": "#007810",
-    "button.border": "#0E0000",
+    "button.border": "#AABBFF33",
     "button.foreground": "#FFFFFF",
     "button.hoverBackground": "#FFF93B88",
 
@@ -79,7 +79,7 @@ Includes: 'buttons', 'inputs', 'textBoxes', 'CheckBoxes',
     "button.secondaryHoverBackground": "#05070466",
 
     // * Buttons (ext btns)
-    "extensionButton.prominentBackground": "#077703",
+    "extensionButton.prominentBackground": "#007C88",
     "extensionButton.prominentForeground": "#FFFFFF",
     "extensionButton.prominentHoverBackground": "#FFF93B44",
 
@@ -102,7 +102,7 @@ Includes: 'buttons', 'inputs', 'textBoxes', 'CheckBoxes',
     "listFilterWidget.outline": "#6688FF",
 
     "interactive.activeCodeBorder": "#6688FF99",
-    "interactive.inactiveCodeBorder": "#FFFFFF33",
+    "interactive.inactiveCodeBorder": "#AABBFF33",
     /*
 
 
@@ -125,12 +125,12 @@ TAB GROUPINGS
     "tab.activeBorderTop": "#FFF93B",
     "tab.activeForeground": "#FFFFFF",
     "tab.activeModifiedBorder": "#FFAA11",
-    "tab.border": "#0EE0FF33",
+    "tab.border": "#AA55FF33",
     "tab.hoverBorder": "#FFF93B",
     "tab.hoverForeground": "#FFF93B",
     "tab.inactiveBackground": "#080C30",
     "tab.inactiveModifiedBorder": "#FFAA11",
-    "tab.lastPinnedBorder": "#0EE0FF33",
+    "tab.lastPinnedBorder": "#AA55FF33",
     "tab.unfocusedActiveBorderTop": "#FFF93B",
     "tab.unfocusedHoverBorder": "#FFF93B",
     "tab.unfocusedHoverForeground": "#FFF93B",
@@ -157,15 +157,15 @@ TAB GROUPINGS
     "activityBar.border": "#000818",
 
     // Badges
-    "activityBarBadge.background": "#077703",
+    "activityBarBadge.background": "#6600CC",
     "activityBarBadge.foreground": "#FFFFFF",
-    "badge.background": "#077703",
+    "badge.background": "#6600CC",
     "badge.foreground": "#FFFFFF",
-    "extensionBadge.remoteBackground": "#077703",
+    "extensionBadge.remoteBackground": "#6600CC",
     "extensionBadge.remoteForeground": "#FFFFFF",
 
     // * DEBUG CONSOLE
-    "debugConsole.sourceForeground": "#0EE0FF",
+    "debugConsole.sourceForeground": "#AA55FF",
     "debugConsoleInputIcon.foreground": "#FFF93B",
     "debugConsole.errorForeground": "#FF2D20",
     "debugConsole.infoForeground": "#4EE555",
@@ -266,7 +266,7 @@ ________________________________________________________
     "editorGroup.border": "#000010", // Non-mutable
     "editorGroup.dropBackground": "#6688FF55",
     "editorGroup.focusedEmptyBorder": "#6688FF",
-    "editorGroupHeader.border": "#0E0000e0",
+    "editorGroupHeader.border": "#080800F0",
     "editorGroupHeader.tabsBackground": "#080C30",
     "editorGroupHeader.tabsBorder": "#FFF93B44",
     "editorGutter.addedBackground": "#33E844",
@@ -342,7 +342,7 @@ ________________________________________________________
     "editorSuggestWidget.highlightForeground": "#6688FF",
     "editorSuggestWidget.selectedBackground": "#6688FF55",
     "editorSuggestWidget.selectedForeground": "#FFFFFF",
-    "editorSuggestWidget.selectedIconForeground": "#0EE0FF",
+    "editorSuggestWidget.selectedIconForeground": "#AA55FF",
     "editorSuggestWidgetStatus.foreground": "#6688FF",
 
     // WARNING
@@ -411,7 +411,7 @@ ________________________________________________________
 
     // * LIST
     "list.focusOutline": "#6688FF",
-    "list.inactiveFocusOutline": "#FFFFFF40",
+    "list.inactiveFocusOutline": "#AABBFF33",
     "list.activeSelectionBackground": "#6688FF66",
     "list.activeSelectionForeground": "#FFFFFF",
     "list.inactiveSelectionBackground": "#FFFFFF18",
@@ -490,7 +490,7 @@ ________________________________________________________
     "gitlens.gutterUncommittedForegroundColor": "#FFAA11",
     "scm.providerBorder": "#000818",
     "scrollbar.shadow": "#050200",
-    "scrollbarSlider.activeBackground": "#0EE0FF",
+    "scrollbarSlider.activeBackground": "#AA55FF",
     "scrollbarSlider.background": "#004E8E",
     "scrollbarSlider.hoverBackground": "#6688FF",
 
@@ -516,10 +516,10 @@ ________________________________________________________
     "statusBarItem.warningForeground": "#FFFF11",
     "statusBarItem.hoverBackground": "#FFF93B44",
     "statusBarItem.prominentHoverBackground": "#FFF93B44",
-    "statusBarItem.remoteBackground": "#077703",
+    "statusBarItem.remoteBackground": "#007C88",
     "statusBarItem.remoteForeground": "#FFFFFF",
     "statusBarItem.activeBackground": "#FFFFFF2e",
-    "statusBarItem.compactHoverBackground": "#FFFFFF33",
+    "statusBarItem.compactHoverBackground": "#AABBFF33",
     "statusBarItem.prominentBackground": "#00000080",
     "statusBarItem.prominentForeground": "#FFFFFF",
     "symbolIcon.arrayForeground": "#FFF93B",
@@ -605,7 +605,7 @@ ________________________________________________________
     "toolbar.activeBackground": "#FFF93B88",
     "toolbar.hoverBackground": "#FFF93B44",
     "toolbar.hoverOutline": "#00000000",
-    "tree.indentGuidesStroke": "#0EE0FF",
+    "tree.indentGuidesStroke": "#AA55FF",
     "welcomePage.tileBackground": "#000818",
     "welcomePage.tileHoverBackground": "#FFF93B44",
     "welcomePage.tileShadow": "#050200",
@@ -647,7 +647,7 @@ ________________________________________________________
     //"editorGhostText.foreground": "#FFFFFF56",
     //"editorGroupHeader.noTabsBackground": "#0a1c33",
     //"editorGutter.background": "#0a1c33",
-    //"editorGutter.foldingControlForeground": "#0EE0FF",
+    //"editorGutter.foldingControlForeground": "#AA55FF",
     //"editorHoverWidget.foreground": "#CCCCCC",
     //"editorPane.background": "#0a1c33",
     //"editorUnicodeHighlight.border": "#bd9b03",
@@ -681,7 +681,7 @@ ________________________________________________________
     //"merge.commonContentBackground": "#60606029",
     //"merge.commonHeaderBackground": "#60606066",
     //"minimap.findMatchHighlight": "#d18616",
-    //"minimapSlider.activeBackground": "#0EE0FF80",
+    //"minimapSlider.activeBackground": "#AA55FF80",
     //"minimapSlider.background": "#004E8E80",
     //"notebook.cellBorderColor": "#44FFF93B",
     //"notebook.cellEditorBackground": "#181C52",
@@ -694,7 +694,7 @@ ________________________________________________________
     //"notebook.selectedCellBackground": "#44FFF93B",
     //"notebook.selectedCellBorder": "#44FFF93B",
     //"notebook.symbolHighlightBackground": "#FFFFFF0b",
-    //"notebookScrollbarSlider.activeBackground": "#0EE0FF",
+    //"notebookScrollbarSlider.activeBackground": "#AA55FF",
     //"notebookScrollbarSlider.background": "#004E8E",
     //"notebookScrollbarSlider.hoverBackground": "#6688FF",
     //"notebookStatusErrorIcon.foreground": "#FF2D20",
@@ -735,7 +735,7 @@ ________________________________________________________
     //"tab.inactiveForeground": "#FFFFFF80",
     //"tab.unfocusedActiveForeground": "#FFFFFF80",
     //"tab.unfocusedActiveModifiedBorder": "#FFAA1180",
-    //"tab.unfocusedInactiveForeground": "#FFFFFF40",
+    //"tab.unfocusedInactiveForeground": "#AABBFF33",
     //"tab.unfocusedInactiveModifiedBorder": "#FFAA1180",
     //"testing.peekBorder": "#FF2D20",
     //"testing.peekHeaderBackground": "#FF2D201a",
@@ -795,25 +795,25 @@ ________________________________________________
     "parameter.declaration": "#DD9933",
     "parameter": "#B0B4BB",
     "function": {
-      "foreground": "#FFF93B",
+      "foreground": "#D0CE60",
       "italic": false,
       "bold": false
     },
 
     "function.declaration": {
-      "foreground": "#FFF93B",
+      "foreground": "#D0CE60",
       "italic": false,
       "bold": true
     },
 
     "method.declaration": {
-      "foreground": "#FFF93B",
+      "foreground": "#D0CE60",
       "italic": true,
       "bold": true
     },
 
     "method": {
-      "foreground": "#FFF93B",
+      "foreground": "#D0CE60",
       "italic": true,
       "bold": false
     },
@@ -915,7 +915,7 @@ ________________________________________________
       "name": "FUNCTIONS and METHODS",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#FFF93B"
+        "foreground": "#D0CE60"
       }
     },
 
@@ -978,7 +978,7 @@ ________________________________________________
       "name": "NUMBERS",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#FFF93B"
+        "foreground": "#CCFF55"
       }
     },
 
@@ -1004,6 +1004,7 @@ ________________________________________________
         "fontStyle": "bold"
       }
     },
+
     {
       "name": "OBJECTS",
       "scope": ["variable.other.object", "variable.other.constant.object"],
@@ -1145,7 +1146,7 @@ ________________________________________________
       "name": "JSON > PROPERTY-KEY'S, (lvl: 5)",
       "scope": "source.json meta meta meta meta meta meta meta meta meta string support.type.property-name",
       "settings": {
-        "foreground": "#FFF93B",
+        "foreground": "#CCCC77",
         "fontStyle": ""
       }
     },
@@ -1161,7 +1162,7 @@ ________________________________________________
       "name": "JSON > PROPERTY-KEY'S, (lvl: 3)",
       "scope": "source.json meta meta meta meta meta string support.type.property-name",
       "settings": {
-        "foreground": "#FFF93B",
+        "foreground": "#CCCC77",
         "fontStyle": ""
       }
     },
@@ -1177,7 +1178,7 @@ ________________________________________________
       "name": "JSON > PROPERTY-KEY'S, (lvl: 1)",
       "scope": ["source.json meta string support.type.property-name"],
       "settings": {
-        "foreground": "#FFF93B",
+        "foreground": "#CCCC77",
         "fontStyle": ""
       }
     },
@@ -1223,6 +1224,36 @@ ________________________________________________
  MARKDOWN TOKEN-PROPERTIES
 *==============================================================*/
 
+    {
+      "name": "HTML -> DEFAULT FOREGROUND COLOR",
+      "scope": "text.html",
+      "settings": {
+        "foreground": "#C0C0C0",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "",
+      "scope": "meta.tag",
+      "settings": {
+        "foreground": "#CCCCCC",
+        "fontStyle": "" // "italic bold"
+      }
+    },
+    /*
+
+
+
+
+
+
+
+
+
+*--------------------------------------------------------------*
+ MARKDOWN TOKEN-PROPERTIES
+*==============================================================*/
     {
       "name": "MARKDOWN > TEXT FOREGROUND",
       "scope": ["text.html.markdown"],

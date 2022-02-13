@@ -121,43 +121,43 @@
     },
 
     "SYNTAX_HIGHLIGHTING_COLOR_SCHEME": {
-      "white": {
+      "WHITE": {
         "hex": "#C0C0C0",
         "name": "",
         "syntax": []
       },
 
-      "PaleBlue": {
-        "hex": "#6E9ED8",
-        "syntax": []
-      },
-
-      "DarkBlue": {
-        "hex": "#0088FF",
+      "DARK-BLUE": {
+        "hex": "#1484FF",
         "name": "",
         "syntax": []
       },
 
-      "BlueCyan": {
-        "hex": "#11BBFF",
+      "PURPLE": {
+        "hex": "#AC52FF",
+        "syntax": []
+      },
+
+      "CYAN": {
+        "hex": "#00AAF",
         "name": "",
         "syntax": []
       },
 
-      "NeonPink": {
-        "hex": "#FF66DD",
+      "PINK": {
+        "hex": "#F87AEC",
         "name": "",
         "syntax": []
       },
 
-      "PastelGreen": {
-        "hex": "#68CFA0",
+      "HighlighterYellow": {
+        "hex": "#6CC560",
         "name": "",
         "syntax": []
       },
 
-      "PastelYellow": {
-        "hex": "#90CC96",
+      "YellowOrange": {
+        "hex": "#C0B515",
         "name": "",
         "syntax": []
       },
