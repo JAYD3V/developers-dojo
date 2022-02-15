@@ -133,8 +133,8 @@
         "syntax": []
       },
 
-      "PURPLE": {
-        "hex": "#AC52FF",
+      "PASTEL_VIOLET": {
+        "hex": "#AFAAFA",
         "syntax": []
       },
 
@@ -179,15 +179,17 @@ ______________________________________________________________________________
 ______________________________________________________________________________*/
   "SYNTAX_HIGHLIGHTING": {
     "SYNTAX_Highlighting": {
-      "Sky Blue": "#18B8FF",
-      "Pastel Pink": "#F880EE",
-      "Purple": "#AC7CFF",
-      "Cyan": "#24C0B2",
+      "Off-White": "#BCBEC4",
+      "Blue": ["#088CFF", "#6995FF", "#00C5FF"],
+      "Pastel Pink": "#EE88DD",
+      "Purple": "#B060FF",
+      "yellow": "#A0C87C",
+      "Cyan": "#1CC0D0",
       "Dark Green": "#2C800F",
       "Green": "#66BB77",
       "BrightGreen": "#77EE33",
-      "red": "#FF2277",
-      "Orange": "#FF7755"
+      "red": "#FF4D3D",
+      "Orange": "#FFB070"
     }
   }
 }
