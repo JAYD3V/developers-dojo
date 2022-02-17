@@ -1,0 +1,26 @@
+{
+  // DOESN'T CHANGE WHEN COLORING A NEW THEME
+  "STATIC BACKGROUNDS": {},
+  // DOESN'T CHANGE WHEN COLORING A NEW THEME
+  "STATIC FOREGROUNDS": {},
+
+  "PASTEL PALETTE": {
+    "Responsibilities": [
+      "GIT & SCM Highlighting & Decorations",
+      "ANSI Shell Colors"
+    ],
+
+    "Palette": {
+      "0 - Pastel White": "#CCCCCC",
+      "1 - Pastel Black": "#444444",
+      "2 - Pastel Blue": "#44CCFF",
+      "3 - Pastel Purple": "",
+      "4 - Pastel Green": "",
+      "5 - Pastel Orange": "#EEAA77",
+      "6 - Pastel Yellow": "#AADD88",
+      "7 - Pastel Pink": "#EE77EE", // Counts as ANSI Magenta
+      "8 - Pastel": ""
+    }
+  },
+  "SCM HIGHLIGHTING": {}
+}
