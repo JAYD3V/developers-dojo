@@ -4,11 +4,11 @@
   "colors": {
     /*******************************************************
                     EDITOR BACKGROUND COLOR
-    <=====================| #0E162D |=====================>  */
-    "editor.background": "#0E162D",
-    "minimap.background": "#0E162D",
-    "editorGutter.background": "#0E162D",
-    "editorUnnecessaryCode.opacity": "#0E162DFF",
+    <=====================| #0F1424 |=====================>  */
+    "editor.background": "#0F1424",
+    "minimap.background": "#0F1424",
+    "editorGutter.background": "#0F1424",
+    "editorUnnecessaryCode.opacity": "#0F1424FF",
 
     /*
 
@@ -19,12 +19,10 @@
     "issues.open": "#FF77EE",
     "issues.closed": "#FF77EE99",
     "issues.newIssueDecoration": "#FF22BB",
-
+    "textPreformat.foreground": "#FF33CCCC",
     "extensionIcon.preReleaseForeground": "#ff6800",
     "gitDecoration.untrackedResourceForeground": "#28E088",
     "peekViewResult.matchHighlightBackground": "#ea5c004d",
-
-    "textPreformat.foreground": "#FF33CCCC",
 
     /*
 
@@ -62,7 +60,6 @@
     "editorBracketHighlight.foreground2": "#0088FFCC",
     "editorBracketHighlight.foreground4": "#0088FFCC",
 
-    "editorInlayHint.foreground": "#88DDFFAC",
     /*
     __________________ PINK __________________ */
     // DELETED
@@ -81,9 +78,9 @@
     "merge.currentContentBackground": "#FF55EE27",
     /*
     __________________ GREEN __________________ */
-    "editorBracketHighlight.foreground1": "#40F080CC",
-    "editorBracketHighlight.foreground5": "#40F080CC",
-    "editorInlayHint.typeForeground": "#40F08090",
+    "editorBracketHighlight.foreground1": "#22CC44EE",
+    "editorBracketHighlight.foreground5": "#22CC44EE",
+    "editorInlayHint.typeForeground": "#22CC44DD",
     /*
     __________________ ORANGE __________________ */
     "editorBracketHighlight.foreground3": "#FF7700AA",
@@ -111,16 +108,6 @@
     "keybindingTable.rowsBackground": "#07102C",
     "editorOverviewRuler.commonContentForeground": "#FFEE00",
     "editorOverviewRuler.currentContentForeground": "#FF4000",
-    /*******************************************************
-
-
-
-
-                           CONTRASTING BORDERS
-    <================| #334466 |=================>                 */
-    "editorInlayHint.parameterBackground": "#33446655",
-    "editorInlayHint.typeBackground": "#33446655",
-    "editorInlayHint.background": "#33446655",
 
     /*******************************************************
 
@@ -162,9 +149,12 @@
     "statusBarItem.compactHoverBackground": "#FFFFFF33",
     "keybindingLabel.bottomBorder": "#FFFFFF22",
     "statusBarItem.activeBackground": "#FFFFFF22",
-    "list.inactiveSelectionBackground": "#FFFFFF16",
-    "merge.commonContentBackground": "#FFFFFF16",
-    "titleBar.border": "#FFFFFF16",
+    "list.inactiveSelectionBackground": "#FFFFFF18",
+    "merge.commonContentBackground": "#FFFFFF18",
+    "titleBar.border": "#FFFFFF18",
+    "editorInlayHint.parameterBackground": "#FFFFFF18",
+    "editorInlayHint.typeBackground": "#FFFFFF18",
+    "editorInlayHint.background": "#FFFFFF18",
     "editor.foldBackground": "#FFFFFF05",
     // #EEEEEE
     "editor.selectionForeground": "#EEEEEE",
@@ -228,7 +218,7 @@
     // Semitransparent
     // 75%
     "tree.indentGuidesStroke": "#20C0FFCC",
-    "editorIndentGuide.background": "#20C0FFCC",
+    "editorIndentGuide.background": "#000A70",
     "editorIndentGuide.activeBackground": "#20C0FFCC",
     // 50%
     "testing.iconUnset": "#20C0FF88",
@@ -237,7 +227,6 @@
     // 20%
     "settings.rowHoverBackground": "#20C0FF33",
     /*********************************************************
-
 
 
     <=====================| #42AEFF |=====================>  */
@@ -251,18 +240,13 @@
     "debugTokenExpression.name": "#42AEFF",
     "settings.headerForeground": "#42AEFF",
     // Semitransparent
+    "editorInlayHint.foreground": "#42AEFFDD",
     "input.placeholderForeground": "#42AEFFDD",
     "breadcrumb.foreground": "#42AEFFDD",
     "panel.border": "#42AEFF66",
     "keybindingLabel.border": "#42AEFF66",
     "editorGroupHeader.tabsBorder": "#42AEFF66",
     "sideBarSectionHeader.border": "#42AEFF66",
-
-    /*******************************************************
-
-
-
-    <=====================| #FFFFFF |=====================>  */
     /*******************************************************
 
 
