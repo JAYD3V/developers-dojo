@@ -90,20 +90,20 @@
 
 
 
-    <================| #848255 |=================>  */
+    <================| #8D8C6C |=================>  */
 
-    "editorBracketMatch.border": "#848255DD",
-    "list.inactiveFocusOutline": "#848255DD",
-    "statusBar.noFolderForeground": "#848255DD",
-    "gitDecoration.ignoredResourceForeground": "#848255DD",
-    "gitDecoration.submoduleResourceForeground": "#848255DD",
-    "editorUnnecessaryCode.border": "#84825566",
-    "editor.inlineValuesForeground": "#848255CC",
-    "editorCodeLens.foreground": "#848255CC",
-    "input.border": "#84825566",
-    "checkbox.border": "#84825566",
-    "dropdown.border": "#84825566",
-    "pickerGroup.border": "#84825566",
+    "editorBracketMatch.border": "#8D8C6CD0",
+    "list.inactiveFocusOutline": "#8D8C6CD0",
+    "statusBar.noFolderForeground": "#8D8C6CD0",
+    "gitDecoration.ignoredResourceForeground": "#8D8C6CD0",
+    "gitDecoration.submoduleResourceForeground": "#8D8C6CD0",
+    "editor.inlineValuesForeground": "#8D8C6CD0",
+    "editorCodeLens.foreground": "#8D8C6CD0",
+    "editorUnnecessaryCode.border": "#8D8C6C77",
+    "input.border": "#8D8C6C66",
+    "checkbox.border": "#8D8C6C66",
+    "dropdown.border": "#8D8C6C66",
+    "pickerGroup.border": "#8D8C6C66",
     "keybindingTable.headerBackground": "#07102C",
     "keybindingTable.rowsBackground": "#07102C",
     "editorOverviewRuler.commonContentForeground": "#FFEE00",
@@ -147,8 +147,10 @@
     "merge.commonHeaderBackground": "#FFFFFF33",
     "interactive.inactiveCodeBorder": "#FFFFFF33",
     "statusBarItem.compactHoverBackground": "#FFFFFF33",
+    "selection.background": "#FFFFFF33",
     "keybindingLabel.bottomBorder": "#FFFFFF22",
     "statusBarItem.activeBackground": "#FFFFFF22",
+    "editor.inactiveSelectionBackground": "#FFFFFF18",
     "list.inactiveSelectionBackground": "#FFFFFF18",
     "merge.commonContentBackground": "#FFFFFF18",
     "titleBar.border": "#FFFFFF18",
@@ -218,7 +220,7 @@
     // Semitransparent
     // 75%
     "tree.indentGuidesStroke": "#20C0FFCC",
-    "editorIndentGuide.background": "#000A70",
+
     "editorIndentGuide.activeBackground": "#20C0FFCC",
     // 50%
     "testing.iconUnset": "#20C0FF88",
@@ -303,6 +305,7 @@
     "list.hoverBackground": "#0088FF66",
     "list.dropBackground": "#0088FF66",
     "terminal.border": "#0088FF66",
+    "editor.selectionHighlightBackground": "#0088FF66",
     // approx. 10%
     "editorRuler.foreground": "#0088FF17",
 
@@ -664,11 +667,11 @@
     "statusBarItem.errorBackground": "#400000",
     /*******************************************************
                         CONTRAST BORDERS
-    <=====================| #080200 |=====================>  */
-    "welcomePage.tileShadow": "#080200",
-    "widget.shadow": "#080200",
-    "editorGroupHeader.border": "#080200",
-    "scrollbar.shadow": "#080200",
+    <=====================| #0D0000 |=====================>  */
+    "welcomePage.tileShadow": "#0D0000",
+    "widget.shadow": "#0D0000",
+    "editorGroupHeader.border": "#0D0000",
+    "scrollbar.shadow": "#0D0000",
     /*
 
 
@@ -676,6 +679,7 @@
     ********************************************************
                   PROPERTIES SET TO PURE BLACK
     <=====================| #000000 |=====================>  */
+    "editorIndentGuide.background": "#0D0000",
     "inputValidation.warningBackground": "#000000",
     "list.filterMatchBackground": "#000000",
     "editor.lineHighlightBorder": "#000000",
@@ -692,20 +696,16 @@
     "inputValidation.infoBackground": "#000000CC",
     "minimap.foregroundOpacity": "#000000CC",
     "button.border": "#000000CC",
-    "editor.findMatchHighlightBackground": "#00000022",
-    "editor.findMatchBackground": "#00000055",
     "editorHoverWidget.statusBarBackground": "#00000077",
     "editor.wordHighlightStrongBackground": "#00000077",
     "editor.findRangeHighlightBackground": "#00000077",
     "errorLens.warningMessageBackground": "#00000077",
-    "editor.inactiveSelectionBackground": "#00000077",
     "statusBarItem.prominentBackground": "#00000077",
     "errorLens.errorMessageBackground": "#00000077",
     "searchEditor.findMatchBackground": "#00000077",
     "editor.wordHighlightBackground": "#00000077",
     "textBlockQuote.background": "#00000077",
     "tab.lastPinnedBorder": "#00000077",
-    "selection.background": "#00000077",
     "editorWidget.border": "#00000077",
     "scm.providerBorder": "#00000077",
     "activityBar.border": "#00000077",
@@ -715,6 +715,9 @@
     "sideBar.border": "#00000077",
     "contrastBorder": "#00000077",
     "tab.border": "#00000077",
+    // #00000055 < ANY #000000??
+    "editor.findMatchBackground": "#00000055",
+    "editor.findMatchHighlightBackground": "#00000022",
 
     /*
 
