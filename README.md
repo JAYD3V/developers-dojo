@@ -71,11 +71,13 @@ By default, editor.renderWhitespace is configured to display leading whitespace 
 
 
 ```JSON
+
+// Add the followingto your "settings.json" file. Choose the scope of your preference.
 {
     "editor.renderWhitespace": "trailing",
     "workbench.colorCustomizations": {
         "editorWhitespace.foreground": "#90090990" // Dots Color
-    }
+    } 
 }
 ```
 
